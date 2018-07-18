@@ -1,0 +1,2868 @@
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 8192
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.040436
+INFO:root:validation overall accuracy 0.466000
+INFO:root:0-shot: 0.040, 1-shot: 0.396, 2-shot: 0.532, 3-shot: 0.560, 4-shot: 0.616, 5-shot: 0.652, 
+INFO:root:episode batch 20, avg train loss 0.034302
+INFO:root:validation overall accuracy 0.516000
+INFO:root:0-shot: 0.036, 1-shot: 0.496, 2-shot: 0.572, 3-shot: 0.648, 4-shot: 0.656, 5-shot: 0.688, 
+INFO:root:episode batch 40, avg train loss 0.033124
+INFO:root:validation overall accuracy 0.522000
+INFO:root:0-shot: 0.056, 1-shot: 0.440, 2-shot: 0.576, 3-shot: 0.668, 4-shot: 0.696, 5-shot: 0.696, 
+INFO:root:episode batch 60, avg train loss 0.032477
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.048, 1-shot: 0.492, 2-shot: 0.604, 3-shot: 0.684, 4-shot: 0.748, 5-shot: 0.744, 
+INFO:root:episode batch 80, avg train loss 0.031934
+INFO:root:validation overall accuracy 0.530667
+INFO:root:0-shot: 0.032, 1-shot: 0.468, 2-shot: 0.624, 3-shot: 0.640, 4-shot: 0.700, 5-shot: 0.720, 
+INFO:root:episode batch 100, avg train loss 0.031571
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.032, 1-shot: 0.488, 2-shot: 0.544, 3-shot: 0.708, 4-shot: 0.760, 5-shot: 0.752, 
+INFO:root:episode batch 120, avg train loss 0.031244
+INFO:root:validation overall accuracy 0.533333
+INFO:root:0-shot: 0.048, 1-shot: 0.456, 2-shot: 0.628, 3-shot: 0.672, 4-shot: 0.688, 5-shot: 0.708, 
+INFO:root:episode batch 140, avg train loss 0.031019
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 8192
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.040762
+INFO:root:validation overall accuracy 0.498667
+INFO:root:0-shot: 0.040, 1-shot: 0.420, 2-shot: 0.532, 3-shot: 0.640, 4-shot: 0.660, 5-shot: 0.700, 
+INFO:root:episode batch 20, avg train loss 0.034335
+INFO:root:validation overall accuracy 0.510667
+INFO:root:0-shot: 0.036, 1-shot: 0.448, 2-shot: 0.580, 3-shot: 0.636, 4-shot: 0.644, 5-shot: 0.720, 
+INFO:root:episode batch 40, avg train loss 0.032942
+INFO:root:validation overall accuracy 0.523333
+INFO:root:0-shot: 0.056, 1-shot: 0.456, 2-shot: 0.584, 3-shot: 0.660, 4-shot: 0.640, 5-shot: 0.744, 
+INFO:root:episode batch 60, avg train loss 0.032405
+INFO:root:validation overall accuracy 0.542000
+INFO:root:0-shot: 0.048, 1-shot: 0.452, 2-shot: 0.600, 3-shot: 0.664, 4-shot: 0.736, 5-shot: 0.752, 
+INFO:root:episode batch 80, avg train loss 0.031932
+INFO:root:validation overall accuracy 0.499333
+INFO:root:0-shot: 0.032, 1-shot: 0.436, 2-shot: 0.596, 3-shot: 0.596, 4-shot: 0.636, 5-shot: 0.700, 
+INFO:root:episode batch 100, avg train loss 0.031700
+INFO:root:validation overall accuracy 0.520000
+INFO:root:0-shot: 0.032, 1-shot: 0.452, 2-shot: 0.560, 3-shot: 0.644, 4-shot: 0.708, 5-shot: 0.724, 
+INFO:root:episode batch 120, avg train loss 0.031414
+INFO:root:validation overall accuracy 0.533333
+INFO:root:0-shot: 0.048, 1-shot: 0.476, 2-shot: 0.632, 3-shot: 0.680, 4-shot: 0.672, 5-shot: 0.692, 
+INFO:root:episode batch 140, avg train loss 0.031179
+INFO:root:validation overall accuracy 0.507333
+INFO:root:0-shot: 0.044, 1-shot: 0.412, 2-shot: 0.588, 3-shot: 0.644, 4-shot: 0.656, 5-shot: 0.700, 
+INFO:root:episode batch 160, avg train loss 0.031005
+INFO:root:validation overall accuracy 0.526667
+INFO:root:0-shot: 0.036, 1-shot: 0.480, 2-shot: 0.584, 3-shot: 0.660, 4-shot: 0.672, 5-shot: 0.728, 
+INFO:root:episode batch 180, avg train loss 0.030760
+INFO:root:validation overall accuracy 0.516667
+INFO:root:0-shot: 0.040, 1-shot: 0.456, 2-shot: 0.576, 3-shot: 0.664, 4-shot: 0.684, 5-shot: 0.680, 
+INFO:root:episode batch 200, avg train loss 0.030581
+INFO:root:validation overall accuracy 0.548667
+INFO:root:0-shot: 0.068, 1-shot: 0.488, 2-shot: 0.628, 3-shot: 0.684, 4-shot: 0.684, 5-shot: 0.740, 
+INFO:root:episode batch 220, avg train loss 0.030591
+INFO:root:validation overall accuracy 0.531333
+INFO:root:0-shot: 0.024, 1-shot: 0.444, 2-shot: 0.592, 3-shot: 0.692, 4-shot: 0.720, 5-shot: 0.716, 
+INFO:root:episode batch 240, avg train loss 0.030545
+INFO:root:validation overall accuracy 0.538000
+INFO:root:0-shot: 0.044, 1-shot: 0.448, 2-shot: 0.588, 3-shot: 0.648, 4-shot: 0.728, 5-shot: 0.772, 
+INFO:root:episode batch 260, avg train loss 0.030399
+INFO:root:validation overall accuracy 0.546000
+INFO:root:0-shot: 0.036, 1-shot: 0.484, 2-shot: 0.636, 3-shot: 0.648, 4-shot: 0.752, 5-shot: 0.720, 
+INFO:root:episode batch 280, avg train loss 0.030331
+INFO:root:validation overall accuracy 0.542000
+INFO:root:0-shot: 0.032, 1-shot: 0.500, 2-shot: 0.568, 3-shot: 0.672, 4-shot: 0.708, 5-shot: 0.772, 
+INFO:root:episode batch 300, avg train loss 0.030250
+INFO:root:validation overall accuracy 0.530667
+INFO:root:0-shot: 0.044, 1-shot: 0.516, 2-shot: 0.612, 3-shot: 0.648, 4-shot: 0.640, 5-shot: 0.724, 
+INFO:root:episode batch 320, avg train loss 0.030100
+INFO:root:validation overall accuracy 0.555333
+INFO:root:0-shot: 0.044, 1-shot: 0.532, 2-shot: 0.616, 3-shot: 0.672, 4-shot: 0.696, 5-shot: 0.772, 
+INFO:root:episode batch 340, avg train loss 0.030097
+INFO:root:validation overall accuracy 0.529333
+INFO:root:0-shot: 0.056, 1-shot: 0.416, 2-shot: 0.636, 3-shot: 0.652, 4-shot: 0.728, 5-shot: 0.688, 
+INFO:root:episode batch 360, avg train loss 0.030081
+INFO:root:validation overall accuracy 0.574000
+INFO:root:0-shot: 0.032, 1-shot: 0.516, 2-shot: 0.624, 3-shot: 0.752, 4-shot: 0.760, 5-shot: 0.760, 
+INFO:root:episode batch 380, avg train loss 0.029985
+INFO:root:validation overall accuracy 0.564667
+INFO:root:0-shot: 0.036, 1-shot: 0.504, 2-shot: 0.660, 3-shot: 0.676, 4-shot: 0.728, 5-shot: 0.784, 
+INFO:root:episode batch 400, avg train loss 0.029974
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.016, 1-shot: 0.472, 2-shot: 0.672, 3-shot: 0.676, 4-shot: 0.712, 5-shot: 0.736, 
+INFO:root:episode batch 420, avg train loss 0.029800
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.040, 1-shot: 0.492, 2-shot: 0.656, 3-shot: 0.700, 4-shot: 0.736, 5-shot: 0.760, 
+INFO:root:episode batch 440, avg train loss 0.029902
+INFO:root:validation overall accuracy 0.559333
+INFO:root:0-shot: 0.040, 1-shot: 0.496, 2-shot: 0.652, 3-shot: 0.668, 4-shot: 0.760, 5-shot: 0.740, 
+INFO:root:episode batch 460, avg train loss 0.029915
+INFO:root:validation overall accuracy 0.556000
+INFO:root:0-shot: 0.024, 1-shot: 0.504, 2-shot: 0.660, 3-shot: 0.700, 4-shot: 0.740, 5-shot: 0.708, 
+INFO:root:episode batch 480, avg train loss 0.029844
+INFO:root:validation overall accuracy 0.578667
+INFO:root:0-shot: 0.036, 1-shot: 0.520, 2-shot: 0.660, 3-shot: 0.720, 4-shot: 0.760, 5-shot: 0.776, 
+INFO:root:episode batch 500, avg train loss 0.029801
+INFO:root:validation overall accuracy 0.575333
+INFO:root:0-shot: 0.040, 1-shot: 0.484, 2-shot: 0.652, 3-shot: 0.716, 4-shot: 0.780, 5-shot: 0.780, 
+INFO:root:episode batch 520, avg train loss 0.029774
+INFO:root:validation overall accuracy 0.536667
+INFO:root:0-shot: 0.044, 1-shot: 0.456, 2-shot: 0.616, 3-shot: 0.680, 4-shot: 0.696, 5-shot: 0.728, 
+INFO:root:episode batch 540, avg train loss 0.029862
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.060, 1-shot: 0.468, 2-shot: 0.712, 3-shot: 0.720, 4-shot: 0.696, 5-shot: 0.748, 
+INFO:root:episode batch 560, avg train loss 0.029798
+INFO:root:validation overall accuracy 0.545333
+INFO:root:0-shot: 0.032, 1-shot: 0.540, 2-shot: 0.592, 3-shot: 0.696, 4-shot: 0.684, 5-shot: 0.728, 
+INFO:root:episode batch 580, avg train loss 0.029756
+INFO:root:validation overall accuracy 0.545333
+INFO:root:0-shot: 0.032, 1-shot: 0.512, 2-shot: 0.580, 3-shot: 0.676, 4-shot: 0.712, 5-shot: 0.760, 
+INFO:root:episode batch 600, avg train loss 0.029689
+INFO:root:validation overall accuracy 0.548000
+INFO:root:0-shot: 0.044, 1-shot: 0.456, 2-shot: 0.592, 3-shot: 0.668, 4-shot: 0.760, 5-shot: 0.768, 
+INFO:root:episode batch 620, avg train loss 0.029841
+INFO:root:validation overall accuracy 0.528667
+INFO:root:0-shot: 0.032, 1-shot: 0.496, 2-shot: 0.548, 3-shot: 0.676, 4-shot: 0.676, 5-shot: 0.744, 
+INFO:root:episode batch 640, avg train loss 0.029701
+INFO:root:validation overall accuracy 0.556000
+INFO:root:0-shot: 0.040, 1-shot: 0.496, 2-shot: 0.624, 3-shot: 0.712, 4-shot: 0.720, 5-shot: 0.744, 
+INFO:root:episode batch 660, avg train loss 0.029654
+INFO:root:validation overall accuracy 0.548667
+INFO:root:0-shot: 0.040, 1-shot: 0.468, 2-shot: 0.628, 3-shot: 0.700, 4-shot: 0.716, 5-shot: 0.740, 
+INFO:root:episode batch 680, avg train loss 0.029614
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.048, 1-shot: 0.540, 2-shot: 0.620, 3-shot: 0.684, 4-shot: 0.740, 5-shot: 0.752, 
+INFO:root:episode batch 700, avg train loss 0.029603
+INFO:root:validation overall accuracy 0.564667
+INFO:root:0-shot: 0.044, 1-shot: 0.500, 2-shot: 0.652, 3-shot: 0.716, 4-shot: 0.748, 5-shot: 0.728, 
+INFO:root:episode batch 720, avg train loss 0.029726
+INFO:root:validation overall accuracy 0.554667
+INFO:root:0-shot: 0.044, 1-shot: 0.520, 2-shot: 0.604, 3-shot: 0.720, 4-shot: 0.720, 5-shot: 0.720, 
+INFO:root:episode batch 740, avg train loss 0.029693
+INFO:root:validation overall accuracy 0.578000
+INFO:root:0-shot: 0.048, 1-shot: 0.520, 2-shot: 0.648, 3-shot: 0.688, 4-shot: 0.784, 5-shot: 0.780, 
+INFO:root:episode batch 760, avg train loss 0.029554
+INFO:root:validation overall accuracy 0.555333
+INFO:root:0-shot: 0.052, 1-shot: 0.492, 2-shot: 0.604, 3-shot: 0.700, 4-shot: 0.732, 5-shot: 0.752, 
+INFO:root:episode batch 780, avg train loss 0.029637
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.036, 1-shot: 0.456, 2-shot: 0.628, 3-shot: 0.712, 4-shot: 0.756, 5-shot: 0.732, 
+INFO:root:episode batch 800, avg train loss 0.029644
+INFO:root:validation overall accuracy 0.544667
+INFO:root:0-shot: 0.056, 1-shot: 0.508, 2-shot: 0.584, 3-shot: 0.692, 4-shot: 0.716, 5-shot: 0.712, 
+INFO:root:episode batch 820, avg train loss 0.029556
+INFO:root:validation overall accuracy 0.568667
+INFO:root:0-shot: 0.024, 1-shot: 0.560, 2-shot: 0.636, 3-shot: 0.676, 4-shot: 0.756, 5-shot: 0.760, 
+INFO:root:episode batch 840, avg train loss 0.029704
+INFO:root:validation overall accuracy 0.552667
+INFO:root:0-shot: 0.036, 1-shot: 0.524, 2-shot: 0.628, 3-shot: 0.716, 4-shot: 0.696, 5-shot: 0.716, 
+INFO:root:episode batch 860, avg train loss 0.029685
+INFO:root:validation overall accuracy 0.574000
+INFO:root:0-shot: 0.044, 1-shot: 0.520, 2-shot: 0.620, 3-shot: 0.720, 4-shot: 0.756, 5-shot: 0.784, 
+INFO:root:episode batch 880, avg train loss 0.029627
+INFO:root:validation overall accuracy 0.554000
+INFO:root:0-shot: 0.016, 1-shot: 0.524, 2-shot: 0.628, 3-shot: 0.692, 4-shot: 0.720, 5-shot: 0.744, 
+INFO:root:episode batch 900, avg train loss 0.029619
+INFO:root:validation overall accuracy 0.532667
+INFO:root:0-shot: 0.040, 1-shot: 0.436, 2-shot: 0.584, 3-shot: 0.672, 4-shot: 0.720, 5-shot: 0.744, 
+INFO:root:episode batch 920, avg train loss 0.029724
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.048, 1-shot: 0.524, 2-shot: 0.608, 3-shot: 0.720, 4-shot: 0.724, 5-shot: 0.744, 
+INFO:root:episode batch 940, avg train loss 0.029603
+INFO:root:validation overall accuracy 0.566667
+INFO:root:0-shot: 0.048, 1-shot: 0.536, 2-shot: 0.628, 3-shot: 0.704, 4-shot: 0.696, 5-shot: 0.788, 
+INFO:root:episode batch 960, avg train loss 0.029597
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.044, 1-shot: 0.508, 2-shot: 0.588, 3-shot: 0.752, 4-shot: 0.704, 5-shot: 0.772, 
+INFO:root:episode batch 980, avg train loss 0.029481
+INFO:root:validation overall accuracy 0.554667
+INFO:root:0-shot: 0.056, 1-shot: 0.560, 2-shot: 0.620, 3-shot: 0.624, 4-shot: 0.728, 5-shot: 0.740, 
+INFO:root:episode batch 1000, avg train loss 0.029609
+INFO:root:validation overall accuracy 0.556667
+INFO:root:0-shot: 0.028, 1-shot: 0.508, 2-shot: 0.660, 3-shot: 0.692, 4-shot: 0.700, 5-shot: 0.752, 
+INFO:root:episode batch 1020, avg train loss 0.029510
+INFO:root:validation overall accuracy 0.558000
+INFO:root:0-shot: 0.052, 1-shot: 0.508, 2-shot: 0.596, 3-shot: 0.676, 4-shot: 0.752, 5-shot: 0.764, 
+INFO:root:episode batch 1040, avg train loss 0.029488
+INFO:root:validation overall accuracy 0.550000
+INFO:root:0-shot: 0.040, 1-shot: 0.472, 2-shot: 0.620, 3-shot: 0.664, 4-shot: 0.760, 5-shot: 0.744, 
+INFO:root:episode batch 1060, avg train loss 0.029599
+INFO:root:validation overall accuracy 0.571333
+INFO:root:0-shot: 0.032, 1-shot: 0.568, 2-shot: 0.696, 3-shot: 0.696, 4-shot: 0.700, 5-shot: 0.736, 
+INFO:root:episode batch 1080, avg train loss 0.029599
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.032, 1-shot: 0.488, 2-shot: 0.668, 3-shot: 0.664, 4-shot: 0.660, 5-shot: 0.772, 
+INFO:root:episode batch 1100, avg train loss 0.029552
+INFO:root:validation overall accuracy 0.543333
+INFO:root:0-shot: 0.048, 1-shot: 0.496, 2-shot: 0.588, 3-shot: 0.680, 4-shot: 0.720, 5-shot: 0.728, 
+INFO:root:episode batch 1120, avg train loss 0.029470
+INFO:root:validation overall accuracy 0.552667
+INFO:root:0-shot: 0.044, 1-shot: 0.512, 2-shot: 0.612, 3-shot: 0.664, 4-shot: 0.704, 5-shot: 0.780, 
+INFO:root:episode batch 1140, avg train loss 0.029446
+INFO:root:validation overall accuracy 0.556667
+INFO:root:0-shot: 0.024, 1-shot: 0.536, 2-shot: 0.624, 3-shot: 0.716, 4-shot: 0.692, 5-shot: 0.748, 
+INFO:root:episode batch 1160, avg train loss 0.029497
+INFO:root:validation overall accuracy 0.576667
+INFO:root:0-shot: 0.048, 1-shot: 0.524, 2-shot: 0.652, 3-shot: 0.724, 4-shot: 0.740, 5-shot: 0.772, 
+INFO:root:episode batch 1180, avg train loss 0.029581
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.028, 1-shot: 0.472, 2-shot: 0.632, 3-shot: 0.692, 4-shot: 0.724, 5-shot: 0.772, 
+INFO:root:episode batch 1200, avg train loss 0.029412
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.040, 1-shot: 0.476, 2-shot: 0.620, 3-shot: 0.672, 4-shot: 0.704, 5-shot: 0.772, 
+INFO:root:episode batch 1220, avg train loss 0.029493
+INFO:root:validation overall accuracy 0.558000
+INFO:root:0-shot: 0.040, 1-shot: 0.536, 2-shot: 0.616, 3-shot: 0.700, 4-shot: 0.724, 5-shot: 0.732, 
+INFO:root:episode batch 1240, avg train loss 0.029472
+INFO:root:validation overall accuracy 0.541333
+INFO:root:0-shot: 0.040, 1-shot: 0.464, 2-shot: 0.588, 3-shot: 0.712, 4-shot: 0.684, 5-shot: 0.760, 
+INFO:root:episode batch 1260, avg train loss 0.029533
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.028, 1-shot: 0.552, 2-shot: 0.620, 3-shot: 0.708, 4-shot: 0.736, 5-shot: 0.760, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 8192
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.039355
+INFO:root:validation overall accuracy 0.477333
+INFO:root:0-shot: 0.040, 1-shot: 0.388, 2-shot: 0.516, 3-shot: 0.584, 4-shot: 0.652, 5-shot: 0.684, 
+INFO:root:episode batch 20, avg train loss 0.034256
+INFO:root:validation overall accuracy 0.488667
+INFO:root:0-shot: 0.036, 1-shot: 0.440, 2-shot: 0.560, 3-shot: 0.604, 4-shot: 0.616, 5-shot: 0.676, 
+INFO:root:episode batch 40, avg train loss 0.032841
+INFO:root:validation overall accuracy 0.494667
+INFO:root:0-shot: 0.056, 1-shot: 0.456, 2-shot: 0.552, 3-shot: 0.608, 4-shot: 0.620, 5-shot: 0.676, 
+INFO:root:episode batch 60, avg train loss 0.032277
+INFO:root:validation overall accuracy 0.532667
+INFO:root:0-shot: 0.048, 1-shot: 0.436, 2-shot: 0.592, 3-shot: 0.692, 4-shot: 0.704, 5-shot: 0.724, 
+INFO:root:episode batch 80, avg train loss 0.031923
+INFO:root:validation overall accuracy 0.495333
+INFO:root:0-shot: 0.032, 1-shot: 0.420, 2-shot: 0.508, 3-shot: 0.620, 4-shot: 0.708, 5-shot: 0.684, 
+INFO:root:episode batch 100, avg train loss 0.031618
+INFO:root:validation overall accuracy 0.517333
+INFO:root:0-shot: 0.032, 1-shot: 0.492, 2-shot: 0.500, 3-shot: 0.640, 4-shot: 0.704, 5-shot: 0.736, 
+INFO:root:episode batch 120, avg train loss 0.031368
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.048, 1-shot: 0.472, 2-shot: 0.648, 3-shot: 0.660, 4-shot: 0.680, 5-shot: 0.732, 
+INFO:root:episode batch 140, avg train loss 0.031056
+INFO:root:validation overall accuracy 0.534667
+INFO:root:0-shot: 0.044, 1-shot: 0.456, 2-shot: 0.612, 3-shot: 0.672, 4-shot: 0.724, 5-shot: 0.700, 
+INFO:root:episode batch 160, avg train loss 0.030898
+INFO:root:validation overall accuracy 0.542000
+INFO:root:0-shot: 0.036, 1-shot: 0.492, 2-shot: 0.580, 3-shot: 0.676, 4-shot: 0.716, 5-shot: 0.752, 
+INFO:root:episode batch 180, avg train loss 0.030843
+INFO:root:validation overall accuracy 0.534000
+INFO:root:0-shot: 0.040, 1-shot: 0.468, 2-shot: 0.588, 3-shot: 0.680, 4-shot: 0.724, 5-shot: 0.704, 
+INFO:root:episode batch 200, avg train loss 0.030696
+INFO:root:validation overall accuracy 0.543333
+INFO:root:0-shot: 0.068, 1-shot: 0.476, 2-shot: 0.592, 3-shot: 0.668, 4-shot: 0.688, 5-shot: 0.768, 
+INFO:root:episode batch 220, avg train loss 0.030526
+INFO:root:validation overall accuracy 0.542667
+INFO:root:0-shot: 0.024, 1-shot: 0.492, 2-shot: 0.584, 3-shot: 0.708, 4-shot: 0.700, 5-shot: 0.748, 
+INFO:root:episode batch 240, avg train loss 0.030422
+INFO:root:validation overall accuracy 0.544000
+INFO:root:0-shot: 0.044, 1-shot: 0.452, 2-shot: 0.580, 3-shot: 0.708, 4-shot: 0.756, 5-shot: 0.724, 
+INFO:root:episode batch 260, avg train loss 0.030367
+INFO:root:validation overall accuracy 0.554667
+INFO:root:0-shot: 0.036, 1-shot: 0.504, 2-shot: 0.640, 3-shot: 0.684, 4-shot: 0.752, 5-shot: 0.712, 
+INFO:root:episode batch 280, avg train loss 0.030351
+INFO:root:validation overall accuracy 0.544667
+INFO:root:0-shot: 0.032, 1-shot: 0.528, 2-shot: 0.576, 3-shot: 0.700, 4-shot: 0.688, 5-shot: 0.744, 
+INFO:root:episode batch 300, avg train loss 0.030292
+INFO:root:validation overall accuracy 0.562667
+INFO:root:0-shot: 0.044, 1-shot: 0.512, 2-shot: 0.664, 3-shot: 0.684, 4-shot: 0.728, 5-shot: 0.744, 
+INFO:root:episode batch 320, avg train loss 0.030124
+INFO:root:validation overall accuracy 0.576000
+INFO:root:0-shot: 0.044, 1-shot: 0.536, 2-shot: 0.636, 3-shot: 0.680, 4-shot: 0.772, 5-shot: 0.788, 
+INFO:root:episode batch 340, avg train loss 0.030134
+INFO:root:validation overall accuracy 0.570667
+INFO:root:0-shot: 0.056, 1-shot: 0.468, 2-shot: 0.664, 3-shot: 0.696, 4-shot: 0.780, 5-shot: 0.760, 
+INFO:root:episode batch 360, avg train loss 0.030091
+INFO:root:validation overall accuracy 0.562667
+INFO:root:0-shot: 0.032, 1-shot: 0.524, 2-shot: 0.640, 3-shot: 0.708, 4-shot: 0.736, 5-shot: 0.736, 
+INFO:root:episode batch 380, avg train loss 0.030092
+INFO:root:validation overall accuracy 0.575333
+INFO:root:0-shot: 0.036, 1-shot: 0.540, 2-shot: 0.680, 3-shot: 0.676, 4-shot: 0.704, 5-shot: 0.816, 
+INFO:root:episode batch 400, avg train loss 0.030008
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.016, 1-shot: 0.512, 2-shot: 0.692, 3-shot: 0.672, 4-shot: 0.740, 5-shot: 0.736, 
+INFO:root:episode batch 420, avg train loss 0.029843
+INFO:root:validation overall accuracy 0.568667
+INFO:root:0-shot: 0.040, 1-shot: 0.528, 2-shot: 0.664, 3-shot: 0.720, 4-shot: 0.716, 5-shot: 0.744, 
+INFO:root:episode batch 440, avg train loss 0.029935
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.040, 1-shot: 0.536, 2-shot: 0.664, 3-shot: 0.664, 4-shot: 0.740, 5-shot: 0.736, 
+INFO:root:episode batch 460, avg train loss 0.029920
+INFO:root:validation overall accuracy 0.535333
+INFO:root:0-shot: 0.024, 1-shot: 0.468, 2-shot: 0.568, 3-shot: 0.684, 4-shot: 0.736, 5-shot: 0.732, 
+INFO:root:episode batch 480, avg train loss 0.029814
+INFO:root:validation overall accuracy 0.580667
+INFO:root:0-shot: 0.036, 1-shot: 0.520, 2-shot: 0.632, 3-shot: 0.700, 4-shot: 0.792, 5-shot: 0.804, 
+INFO:root:episode batch 500, avg train loss 0.029829
+INFO:root:validation overall accuracy 0.572667
+INFO:root:0-shot: 0.040, 1-shot: 0.484, 2-shot: 0.648, 3-shot: 0.708, 4-shot: 0.788, 5-shot: 0.768, 
+INFO:root:episode batch 520, avg train loss 0.029821
+INFO:root:validation overall accuracy 0.542667
+INFO:root:0-shot: 0.044, 1-shot: 0.440, 2-shot: 0.608, 3-shot: 0.696, 4-shot: 0.752, 5-shot: 0.716, 
+INFO:root:episode batch 540, avg train loss 0.029784
+INFO:root:validation overall accuracy 0.550667
+INFO:root:0-shot: 0.060, 1-shot: 0.452, 2-shot: 0.672, 3-shot: 0.688, 4-shot: 0.708, 5-shot: 0.724, 
+INFO:root:episode batch 560, avg train loss 0.029853
+INFO:root:validation overall accuracy 0.537333
+INFO:root:0-shot: 0.032, 1-shot: 0.504, 2-shot: 0.588, 3-shot: 0.680, 4-shot: 0.684, 5-shot: 0.736, 
+INFO:root:episode batch 580, avg train loss 0.029890
+INFO:root:validation overall accuracy 0.535333
+INFO:root:0-shot: 0.032, 1-shot: 0.464, 2-shot: 0.584, 3-shot: 0.696, 4-shot: 0.704, 5-shot: 0.732, 
+INFO:root:episode batch 600, avg train loss 0.029759
+INFO:root:validation overall accuracy 0.560667
+INFO:root:0-shot: 0.044, 1-shot: 0.476, 2-shot: 0.640, 3-shot: 0.680, 4-shot: 0.752, 5-shot: 0.772, 
+INFO:root:episode batch 620, avg train loss 0.029741
+INFO:root:validation overall accuracy 0.546000
+INFO:root:0-shot: 0.032, 1-shot: 0.492, 2-shot: 0.600, 3-shot: 0.676, 4-shot: 0.716, 5-shot: 0.760, 
+INFO:root:episode batch 640, avg train loss 0.029863
+INFO:root:validation overall accuracy 0.540667
+INFO:root:0-shot: 0.040, 1-shot: 0.480, 2-shot: 0.576, 3-shot: 0.720, 4-shot: 0.704, 5-shot: 0.724, 
+INFO:root:episode batch 660, avg train loss 0.029678
+INFO:root:validation overall accuracy 0.554000
+INFO:root:0-shot: 0.040, 1-shot: 0.500, 2-shot: 0.664, 3-shot: 0.652, 4-shot: 0.720, 5-shot: 0.748, 
+INFO:root:episode batch 680, avg train loss 0.029733
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.048, 1-shot: 0.500, 2-shot: 0.624, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.764, 
+INFO:root:episode batch 700, avg train loss 0.029822
+INFO:root:validation overall accuracy 0.552667
+INFO:root:0-shot: 0.044, 1-shot: 0.484, 2-shot: 0.624, 3-shot: 0.688, 4-shot: 0.752, 5-shot: 0.724, 
+INFO:root:episode batch 720, avg train loss 0.029685
+INFO:root:validation overall accuracy 0.564667
+INFO:root:0-shot: 0.044, 1-shot: 0.540, 2-shot: 0.616, 3-shot: 0.740, 4-shot: 0.736, 5-shot: 0.712, 
+INFO:root:episode batch 740, avg train loss 0.029688
+INFO:root:validation overall accuracy 0.580667
+INFO:root:0-shot: 0.048, 1-shot: 0.552, 2-shot: 0.628, 3-shot: 0.696, 4-shot: 0.796, 5-shot: 0.764, 
+INFO:root:episode batch 760, avg train loss 0.029763
+INFO:root:validation overall accuracy 0.554000
+INFO:root:0-shot: 0.052, 1-shot: 0.472, 2-shot: 0.592, 3-shot: 0.688, 4-shot: 0.744, 5-shot: 0.776, 
+INFO:root:episode batch 780, avg train loss 0.029675
+INFO:root:validation overall accuracy 0.552000
+INFO:root:0-shot: 0.036, 1-shot: 0.480, 2-shot: 0.596, 3-shot: 0.696, 4-shot: 0.752, 5-shot: 0.752, 
+INFO:root:episode batch 800, avg train loss 0.029706
+INFO:root:validation overall accuracy 0.558000
+INFO:root:0-shot: 0.056, 1-shot: 0.516, 2-shot: 0.600, 3-shot: 0.704, 4-shot: 0.728, 5-shot: 0.744, 
+INFO:root:episode batch 820, avg train loss 0.029671
+INFO:root:validation overall accuracy 0.552667
+INFO:root:0-shot: 0.024, 1-shot: 0.536, 2-shot: 0.596, 3-shot: 0.688, 4-shot: 0.728, 5-shot: 0.744, 
+INFO:root:episode batch 840, avg train loss 0.029696
+INFO:root:validation overall accuracy 0.562000
+INFO:root:0-shot: 0.036, 1-shot: 0.512, 2-shot: 0.628, 3-shot: 0.756, 4-shot: 0.732, 5-shot: 0.708, 
+INFO:root:episode batch 860, avg train loss 0.029695
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.044, 1-shot: 0.512, 2-shot: 0.624, 3-shot: 0.712, 4-shot: 0.708, 5-shot: 0.768, 
+INFO:root:episode batch 880, avg train loss 0.029693
+INFO:root:validation overall accuracy 0.550000
+INFO:root:0-shot: 0.016, 1-shot: 0.520, 2-shot: 0.608, 3-shot: 0.692, 4-shot: 0.704, 5-shot: 0.760, 
+INFO:root:episode batch 900, avg train loss 0.029614
+INFO:root:validation overall accuracy 0.523333
+INFO:root:0-shot: 0.040, 1-shot: 0.428, 2-shot: 0.600, 3-shot: 0.660, 4-shot: 0.708, 5-shot: 0.704, 
+INFO:root:episode batch 920, avg train loss 0.029560
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.048, 1-shot: 0.536, 2-shot: 0.648, 3-shot: 0.716, 4-shot: 0.740, 5-shot: 0.708, 
+INFO:root:episode batch 940, avg train loss 0.029655
+INFO:root:validation overall accuracy 0.568000
+INFO:root:0-shot: 0.048, 1-shot: 0.548, 2-shot: 0.608, 3-shot: 0.728, 4-shot: 0.720, 5-shot: 0.756, 
+INFO:root:episode batch 960, avg train loss 0.029656
+INFO:root:validation overall accuracy 0.566667
+INFO:root:0-shot: 0.044, 1-shot: 0.496, 2-shot: 0.616, 3-shot: 0.768, 4-shot: 0.700, 5-shot: 0.776, 
+INFO:root:episode batch 980, avg train loss 0.029563
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.056, 1-shot: 0.548, 2-shot: 0.648, 3-shot: 0.680, 4-shot: 0.732, 5-shot: 0.716, 
+INFO:root:episode batch 1000, avg train loss 0.029586
+INFO:root:validation overall accuracy 0.544000
+INFO:root:0-shot: 0.028, 1-shot: 0.528, 2-shot: 0.624, 3-shot: 0.636, 4-shot: 0.724, 5-shot: 0.724, 
+INFO:root:episode batch 1020, avg train loss 0.029674
+INFO:root:validation overall accuracy 0.554667
+INFO:root:0-shot: 0.052, 1-shot: 0.480, 2-shot: 0.612, 3-shot: 0.688, 4-shot: 0.760, 5-shot: 0.736, 
+INFO:root:episode batch 1040, avg train loss 0.029599
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.040, 1-shot: 0.484, 2-shot: 0.632, 3-shot: 0.700, 4-shot: 0.740, 5-shot: 0.724, 
+INFO:root:episode batch 1060, avg train loss 0.029579
+INFO:root:validation overall accuracy 0.558667
+INFO:root:0-shot: 0.032, 1-shot: 0.544, 2-shot: 0.664, 3-shot: 0.688, 4-shot: 0.672, 5-shot: 0.752, 
+INFO:root:episode batch 1080, avg train loss 0.029533
+INFO:root:validation overall accuracy 0.544000
+INFO:root:0-shot: 0.032, 1-shot: 0.484, 2-shot: 0.664, 3-shot: 0.640, 4-shot: 0.672, 5-shot: 0.772, 
+INFO:root:episode batch 1100, avg train loss 0.029595
+INFO:root:validation overall accuracy 0.558000
+INFO:root:0-shot: 0.048, 1-shot: 0.520, 2-shot: 0.608, 3-shot: 0.672, 4-shot: 0.748, 5-shot: 0.752, 
+INFO:root:episode batch 1120, avg train loss 0.029499
+INFO:root:validation overall accuracy 0.550667
+INFO:root:0-shot: 0.044, 1-shot: 0.528, 2-shot: 0.636, 3-shot: 0.656, 4-shot: 0.692, 5-shot: 0.748, 
+INFO:root:episode batch 1140, avg train loss 0.029587
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.024, 1-shot: 0.528, 2-shot: 0.652, 3-shot: 0.728, 4-shot: 0.720, 5-shot: 0.744, 
+INFO:root:episode batch 1160, avg train loss 0.029588
+INFO:root:validation overall accuracy 0.579333
+INFO:root:0-shot: 0.048, 1-shot: 0.544, 2-shot: 0.632, 3-shot: 0.744, 4-shot: 0.744, 5-shot: 0.764, 
+INFO:root:episode batch 1180, avg train loss 0.029573
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.028, 1-shot: 0.516, 2-shot: 0.624, 3-shot: 0.684, 4-shot: 0.712, 5-shot: 0.756, 
+INFO:root:episode batch 1200, avg train loss 0.029541
+INFO:root:validation overall accuracy 0.564667
+INFO:root:0-shot: 0.040, 1-shot: 0.508, 2-shot: 0.648, 3-shot: 0.672, 4-shot: 0.744, 5-shot: 0.776, 
+INFO:root:episode batch 1220, avg train loss 0.029509
+INFO:root:validation overall accuracy 0.572667
+INFO:root:0-shot: 0.040, 1-shot: 0.552, 2-shot: 0.632, 3-shot: 0.700, 4-shot: 0.748, 5-shot: 0.764, 
+INFO:root:episode batch 1240, avg train loss 0.029525
+INFO:root:validation overall accuracy 0.536667
+INFO:root:0-shot: 0.040, 1-shot: 0.472, 2-shot: 0.580, 3-shot: 0.652, 4-shot: 0.708, 5-shot: 0.768, 
+INFO:root:episode batch 1260, avg train loss 0.029442
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.028, 1-shot: 0.540, 2-shot: 0.632, 3-shot: 0.704, 4-shot: 0.724, 5-shot: 0.740, 
+INFO:root:episode batch 1280, avg train loss 0.029565
+INFO:root:validation overall accuracy 0.552000
+INFO:root:0-shot: 0.020, 1-shot: 0.492, 2-shot: 0.592, 3-shot: 0.724, 4-shot: 0.744, 5-shot: 0.740, 
+INFO:root:episode batch 1300, avg train loss 0.029551
+INFO:root:validation overall accuracy 0.544667
+INFO:root:0-shot: 0.040, 1-shot: 0.504, 2-shot: 0.604, 3-shot: 0.692, 4-shot: 0.712, 5-shot: 0.716, 
+INFO:root:episode batch 1320, avg train loss 0.029497
+INFO:root:validation overall accuracy 0.558667
+INFO:root:0-shot: 0.040, 1-shot: 0.524, 2-shot: 0.620, 3-shot: 0.692, 4-shot: 0.740, 5-shot: 0.736, 
+INFO:root:episode batch 1340, avg train loss 0.029474
+INFO:root:validation overall accuracy 0.556000
+INFO:root:0-shot: 0.036, 1-shot: 0.524, 2-shot: 0.636, 3-shot: 0.688, 4-shot: 0.744, 5-shot: 0.708, 
+INFO:root:episode batch 1360, avg train loss 0.029630
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.032, 1-shot: 0.524, 2-shot: 0.604, 3-shot: 0.684, 4-shot: 0.740, 5-shot: 0.796, 
+INFO:root:episode batch 1380, avg train loss 0.029606
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.040, 1-shot: 0.512, 2-shot: 0.652, 3-shot: 0.712, 4-shot: 0.784, 5-shot: 0.704, 
+INFO:root:episode batch 1400, avg train loss 0.029615
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.052, 1-shot: 0.548, 2-shot: 0.644, 3-shot: 0.680, 4-shot: 0.748, 5-shot: 0.708, 
+INFO:root:episode batch 1420, avg train loss 0.029499
+INFO:root:validation overall accuracy 0.584000
+INFO:root:0-shot: 0.036, 1-shot: 0.540, 2-shot: 0.652, 3-shot: 0.728, 4-shot: 0.736, 5-shot: 0.812, 
+INFO:root:episode batch 1440, avg train loss 0.029567
+INFO:root:validation overall accuracy 0.562667
+INFO:root:0-shot: 0.056, 1-shot: 0.516, 2-shot: 0.620, 3-shot: 0.728, 4-shot: 0.736, 5-shot: 0.720, 
+INFO:root:episode batch 1460, avg train loss 0.029610
+INFO:root:validation overall accuracy 0.571333
+INFO:root:0-shot: 0.032, 1-shot: 0.528, 2-shot: 0.684, 3-shot: 0.708, 4-shot: 0.728, 5-shot: 0.748, 
+INFO:root:episode batch 1480, avg train loss 0.029522
+INFO:root:validation overall accuracy 0.556667
+INFO:root:0-shot: 0.032, 1-shot: 0.524, 2-shot: 0.672, 3-shot: 0.692, 4-shot: 0.692, 5-shot: 0.728, 
+INFO:root:episode batch 1500, avg train loss 0.029594
+INFO:root:validation overall accuracy 0.588000
+INFO:root:0-shot: 0.052, 1-shot: 0.504, 2-shot: 0.724, 3-shot: 0.724, 4-shot: 0.708, 5-shot: 0.816, 
+INFO:root:episode batch 1520, avg train loss 0.029532
+INFO:root:validation overall accuracy 0.566667
+INFO:root:0-shot: 0.036, 1-shot: 0.544, 2-shot: 0.640, 3-shot: 0.712, 4-shot: 0.732, 5-shot: 0.736, 
+INFO:root:episode batch 1540, avg train loss 0.029395
+INFO:root:validation overall accuracy 0.548000
+INFO:root:0-shot: 0.056, 1-shot: 0.492, 2-shot: 0.644, 3-shot: 0.688, 4-shot: 0.688, 5-shot: 0.720, 
+INFO:root:episode batch 1560, avg train loss 0.029505
+INFO:root:validation overall accuracy 0.558667
+INFO:root:0-shot: 0.052, 1-shot: 0.516, 2-shot: 0.640, 3-shot: 0.692, 4-shot: 0.724, 5-shot: 0.728, 
+INFO:root:episode batch 1580, avg train loss 0.029581
+INFO:root:validation overall accuracy 0.558667
+INFO:root:0-shot: 0.036, 1-shot: 0.532, 2-shot: 0.652, 3-shot: 0.672, 4-shot: 0.700, 5-shot: 0.760, 
+INFO:root:episode batch 1600, avg train loss 0.029465
+INFO:root:validation overall accuracy 0.550000
+INFO:root:0-shot: 0.048, 1-shot: 0.524, 2-shot: 0.624, 3-shot: 0.672, 4-shot: 0.736, 5-shot: 0.696, 
+INFO:root:episode batch 1620, avg train loss 0.029424
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.024, 1-shot: 0.488, 2-shot: 0.604, 3-shot: 0.684, 4-shot: 0.728, 5-shot: 0.712, 
+INFO:root:episode batch 1640, avg train loss 0.029455
+INFO:root:validation overall accuracy 0.543333
+INFO:root:0-shot: 0.044, 1-shot: 0.488, 2-shot: 0.604, 3-shot: 0.648, 4-shot: 0.728, 5-shot: 0.748, 
+INFO:root:episode batch 1660, avg train loss 0.029461
+INFO:root:validation overall accuracy 0.548667
+INFO:root:0-shot: 0.032, 1-shot: 0.516, 2-shot: 0.620, 3-shot: 0.652, 4-shot: 0.736, 5-shot: 0.736, 
+INFO:root:episode batch 1680, avg train loss 0.029540
+INFO:root:validation overall accuracy 0.576667
+INFO:root:0-shot: 0.040, 1-shot: 0.560, 2-shot: 0.680, 3-shot: 0.660, 4-shot: 0.728, 5-shot: 0.792, 
+INFO:root:episode batch 1700, avg train loss 0.029436
+INFO:root:validation overall accuracy 0.562000
+INFO:root:0-shot: 0.020, 1-shot: 0.532, 2-shot: 0.648, 3-shot: 0.712, 4-shot: 0.728, 5-shot: 0.732, 
+INFO:root:episode batch 1720, avg train loss 0.029571
+INFO:root:validation overall accuracy 0.580667
+INFO:root:0-shot: 0.044, 1-shot: 0.548, 2-shot: 0.664, 3-shot: 0.740, 4-shot: 0.716, 5-shot: 0.772, 
+INFO:root:episode batch 1740, avg train loss 0.029482
+INFO:root:validation overall accuracy 0.582667
+INFO:root:0-shot: 0.048, 1-shot: 0.532, 2-shot: 0.700, 3-shot: 0.716, 4-shot: 0.740, 5-shot: 0.760, 
+INFO:root:episode batch 1760, avg train loss 0.029402
+INFO:root:validation overall accuracy 0.533333
+INFO:root:0-shot: 0.044, 1-shot: 0.452, 2-shot: 0.540, 3-shot: 0.708, 4-shot: 0.720, 5-shot: 0.736, 
+INFO:root:episode batch 1780, avg train loss 0.029532
+INFO:root:validation overall accuracy 0.562667
+INFO:root:0-shot: 0.060, 1-shot: 0.520, 2-shot: 0.644, 3-shot: 0.676, 4-shot: 0.784, 5-shot: 0.692, 
+INFO:root:episode batch 1800, avg train loss 0.029522
+INFO:root:validation overall accuracy 0.573333
+INFO:root:0-shot: 0.052, 1-shot: 0.560, 2-shot: 0.612, 3-shot: 0.692, 4-shot: 0.764, 5-shot: 0.760, 
+INFO:root:episode batch 1820, avg train loss 0.029443
+INFO:root:validation overall accuracy 0.592667
+INFO:root:0-shot: 0.056, 1-shot: 0.548, 2-shot: 0.696, 3-shot: 0.756, 4-shot: 0.720, 5-shot: 0.780, 
+INFO:root:episode batch 1840, avg train loss 0.029508
+INFO:root:validation overall accuracy 0.570667
+INFO:root:0-shot: 0.056, 1-shot: 0.524, 2-shot: 0.680, 3-shot: 0.692, 4-shot: 0.752, 5-shot: 0.720, 
+INFO:root:episode batch 1860, avg train loss 0.029330
+INFO:root:validation overall accuracy 0.560667
+INFO:root:0-shot: 0.020, 1-shot: 0.508, 2-shot: 0.628, 3-shot: 0.732, 4-shot: 0.704, 5-shot: 0.772, 
+INFO:root:episode batch 1880, avg train loss 0.029432
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.040, 1-shot: 0.508, 2-shot: 0.656, 3-shot: 0.732, 4-shot: 0.720, 5-shot: 0.728, 
+INFO:root:episode batch 1900, avg train loss 0.029522
+INFO:root:validation overall accuracy 0.554000
+INFO:root:0-shot: 0.076, 1-shot: 0.520, 2-shot: 0.588, 3-shot: 0.700, 4-shot: 0.712, 5-shot: 0.728, 
+INFO:root:episode batch 1920, avg train loss 0.029405
+INFO:root:validation overall accuracy 0.568000
+INFO:root:0-shot: 0.040, 1-shot: 0.560, 2-shot: 0.632, 3-shot: 0.700, 4-shot: 0.712, 5-shot: 0.764, 
+INFO:root:episode batch 1940, avg train loss 0.029382
+INFO:root:validation overall accuracy 0.581333
+INFO:root:0-shot: 0.036, 1-shot: 0.540, 2-shot: 0.640, 3-shot: 0.676, 4-shot: 0.780, 5-shot: 0.816, 
+INFO:root:episode batch 1960, avg train loss 0.029461
+INFO:root:validation overall accuracy 0.588000
+INFO:root:0-shot: 0.040, 1-shot: 0.576, 2-shot: 0.656, 3-shot: 0.716, 4-shot: 0.760, 5-shot: 0.780, 
+INFO:root:episode batch 1980, avg train loss 0.029457
+INFO:root:validation overall accuracy 0.584000
+INFO:root:0-shot: 0.052, 1-shot: 0.584, 2-shot: 0.684, 3-shot: 0.700, 4-shot: 0.724, 5-shot: 0.760, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.039565
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.039779
+INFO:root:validation overall accuracy 0.461333
+INFO:root:0-shot: 0.040, 1-shot: 0.392, 2-shot: 0.484, 3-shot: 0.588, 4-shot: 0.584, 5-shot: 0.680, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.286951
+INFO:root:validation overall accuracy 0.501333
+INFO:root:0-shot: 0.040, 1-shot: 0.436, 2-shot: 0.532, 3-shot: 0.648, 4-shot: 0.644, 5-shot: 0.708, 
+INFO:root:episode batch 20, avg train loss 0.173896
+INFO:root:validation overall accuracy 0.508667
+INFO:root:0-shot: 0.036, 1-shot: 0.508, 2-shot: 0.524, 3-shot: 0.676, 4-shot: 0.636, 5-shot: 0.672, 
+INFO:root:episode batch 40, avg train loss 0.149485
+INFO:root:validation overall accuracy 0.519333
+INFO:root:0-shot: 0.056, 1-shot: 0.460, 2-shot: 0.528, 3-shot: 0.660, 4-shot: 0.680, 5-shot: 0.732, 
+INFO:root:episode batch 60, avg train loss 0.144289
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.048, 1-shot: 0.484, 2-shot: 0.612, 3-shot: 0.664, 4-shot: 0.704, 5-shot: 0.728, 
+INFO:root:episode batch 80, avg train loss 0.141592
+INFO:root:validation overall accuracy 0.540667
+INFO:root:0-shot: 0.032, 1-shot: 0.480, 2-shot: 0.632, 3-shot: 0.656, 4-shot: 0.728, 5-shot: 0.716, 
+INFO:root:episode batch 100, avg train loss 0.139672
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.032, 1-shot: 0.512, 2-shot: 0.576, 3-shot: 0.696, 4-shot: 0.724, 5-shot: 0.744, 
+INFO:root:episode batch 120, avg train loss 0.138806
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.048, 1-shot: 0.500, 2-shot: 0.652, 3-shot: 0.732, 4-shot: 0.708, 5-shot: 0.740, 
+INFO:root:episode batch 140, avg train loss 0.138147
+INFO:root:validation overall accuracy 0.575333
+INFO:root:0-shot: 0.044, 1-shot: 0.516, 2-shot: 0.668, 3-shot: 0.736, 4-shot: 0.716, 5-shot: 0.772, 
+INFO:root:episode batch 160, avg train loss 0.137512
+INFO:root:validation overall accuracy 0.596667
+INFO:root:0-shot: 0.036, 1-shot: 0.600, 2-shot: 0.684, 3-shot: 0.692, 4-shot: 0.764, 5-shot: 0.804, 
+INFO:root:episode batch 180, avg train loss 0.136986
+INFO:root:validation overall accuracy 0.586667
+INFO:root:0-shot: 0.040, 1-shot: 0.568, 2-shot: 0.648, 3-shot: 0.776, 4-shot: 0.724, 5-shot: 0.764, 
+INFO:root:episode batch 200, avg train loss 0.136705
+INFO:root:validation overall accuracy 0.584000
+INFO:root:0-shot: 0.068, 1-shot: 0.524, 2-shot: 0.664, 3-shot: 0.748, 4-shot: 0.704, 5-shot: 0.796, 
+INFO:root:episode batch 220, avg train loss 0.136523
+INFO:root:validation overall accuracy 0.570667
+INFO:root:0-shot: 0.024, 1-shot: 0.544, 2-shot: 0.628, 3-shot: 0.720, 4-shot: 0.744, 5-shot: 0.764, 
+INFO:root:episode batch 240, avg train loss 0.136383
+INFO:root:validation overall accuracy 0.615333
+INFO:root:0-shot: 0.044, 1-shot: 0.608, 2-shot: 0.712, 3-shot: 0.736, 4-shot: 0.796, 5-shot: 0.796, 
+INFO:root:episode batch 260, avg train loss 0.136216
+INFO:root:validation overall accuracy 0.605333
+INFO:root:0-shot: 0.036, 1-shot: 0.624, 2-shot: 0.712, 3-shot: 0.728, 4-shot: 0.788, 5-shot: 0.744, 
+INFO:root:episode batch 280, avg train loss 0.137685
+INFO:root:validation overall accuracy 0.596000
+INFO:root:0-shot: 0.032, 1-shot: 0.620, 2-shot: 0.680, 3-shot: 0.704, 4-shot: 0.752, 5-shot: 0.788, 
+INFO:root:episode batch 300, avg train loss 0.142730
+INFO:root:validation overall accuracy 0.628000
+INFO:root:0-shot: 0.044, 1-shot: 0.652, 2-shot: 0.756, 3-shot: 0.752, 4-shot: 0.768, 5-shot: 0.796, 
+INFO:root:episode batch 320, avg train loss 0.152273
+INFO:root:validation overall accuracy 0.623333
+INFO:root:0-shot: 0.044, 1-shot: 0.624, 2-shot: 0.716, 3-shot: 0.752, 4-shot: 0.808, 5-shot: 0.796, 
+INFO:root:episode batch 340, avg train loss 0.173120
+INFO:root:validation overall accuracy 0.644667
+INFO:root:0-shot: 0.056, 1-shot: 0.620, 2-shot: 0.776, 3-shot: 0.804, 4-shot: 0.812, 5-shot: 0.800, 
+INFO:root:episode batch 360, avg train loss 0.165792
+INFO:root:validation overall accuracy 0.676000
+INFO:root:0-shot: 0.044, 1-shot: 0.724, 2-shot: 0.800, 3-shot: 0.836, 4-shot: 0.804, 5-shot: 0.848, 
+INFO:root:episode batch 380, avg train loss 0.155979
+INFO:root:validation overall accuracy 0.663333
+INFO:root:0-shot: 0.048, 1-shot: 0.676, 2-shot: 0.760, 3-shot: 0.804, 4-shot: 0.836, 5-shot: 0.856, 
+INFO:root:episode batch 400, avg train loss 0.146430
+INFO:root:validation overall accuracy 0.655333
+INFO:root:0-shot: 0.032, 1-shot: 0.724, 2-shot: 0.748, 3-shot: 0.784, 4-shot: 0.832, 5-shot: 0.812, 
+INFO:root:episode batch 420, avg train loss 0.140446
+INFO:root:validation overall accuracy 0.688667
+INFO:root:0-shot: 0.044, 1-shot: 0.716, 2-shot: 0.836, 3-shot: 0.836, 4-shot: 0.844, 5-shot: 0.856, 
+INFO:root:episode batch 440, avg train loss 0.130360
+INFO:root:validation overall accuracy 0.702667
+INFO:root:0-shot: 0.060, 1-shot: 0.752, 2-shot: 0.832, 3-shot: 0.836, 4-shot: 0.868, 5-shot: 0.868, 
+INFO:root:episode batch 460, avg train loss 0.122206
+INFO:root:validation overall accuracy 0.714000
+INFO:root:0-shot: 0.044, 1-shot: 0.744, 2-shot: 0.836, 3-shot: 0.868, 4-shot: 0.896, 5-shot: 0.896, 
+INFO:root:episode batch 480, avg train loss 0.119800
+INFO:root:validation overall accuracy 0.755333
+INFO:root:0-shot: 0.076, 1-shot: 0.836, 2-shot: 0.872, 3-shot: 0.904, 4-shot: 0.924, 5-shot: 0.920, 
+INFO:root:episode batch 500, avg train loss 0.115235
+INFO:root:validation overall accuracy 0.738000
+INFO:root:0-shot: 0.048, 1-shot: 0.744, 2-shot: 0.876, 3-shot: 0.896, 4-shot: 0.936, 5-shot: 0.928, 
+INFO:root:episode batch 520, avg train loss 0.110420
+INFO:root:validation overall accuracy 0.735333
+INFO:root:0-shot: 0.068, 1-shot: 0.800, 2-shot: 0.852, 3-shot: 0.876, 4-shot: 0.908, 5-shot: 0.908, 
+INFO:root:episode batch 540, avg train loss 0.107547
+INFO:root:validation overall accuracy 0.752000
+INFO:root:0-shot: 0.076, 1-shot: 0.800, 2-shot: 0.892, 3-shot: 0.896, 4-shot: 0.916, 5-shot: 0.932, 
+INFO:root:episode batch 560, avg train loss 0.105558
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.287960
+INFO:root:validation overall accuracy 0.484000
+INFO:root:0-shot: 0.040, 1-shot: 0.404, 2-shot: 0.560, 3-shot: 0.628, 4-shot: 0.592, 5-shot: 0.680, 
+INFO:root:episode batch 20, avg train loss 0.173832
+INFO:root:validation overall accuracy 0.498000
+INFO:root:0-shot: 0.036, 1-shot: 0.456, 2-shot: 0.544, 3-shot: 0.644, 4-shot: 0.612, 5-shot: 0.696, 
+INFO:root:episode batch 40, avg train loss 0.149824
+INFO:root:validation overall accuracy 0.499333
+INFO:root:0-shot: 0.056, 1-shot: 0.448, 2-shot: 0.544, 3-shot: 0.616, 4-shot: 0.640, 5-shot: 0.692, 
+INFO:root:episode batch 60, avg train loss 0.144627
+INFO:root:validation overall accuracy 0.541333
+INFO:root:0-shot: 0.048, 1-shot: 0.448, 2-shot: 0.616, 3-shot: 0.692, 4-shot: 0.692, 5-shot: 0.752, 
+INFO:root:episode batch 80, avg train loss 0.141818
+INFO:root:validation overall accuracy 0.538000
+INFO:root:0-shot: 0.032, 1-shot: 0.468, 2-shot: 0.592, 3-shot: 0.668, 4-shot: 0.732, 5-shot: 0.736, 
+INFO:root:episode batch 100, avg train loss 0.140179
+INFO:root:validation overall accuracy 0.510667
+INFO:root:0-shot: 0.032, 1-shot: 0.452, 2-shot: 0.528, 3-shot: 0.636, 4-shot: 0.732, 5-shot: 0.684, 
+INFO:root:episode batch 120, avg train loss 0.139131
+INFO:root:validation overall accuracy 0.520000
+INFO:root:0-shot: 0.048, 1-shot: 0.476, 2-shot: 0.596, 3-shot: 0.636, 4-shot: 0.672, 5-shot: 0.692, 
+INFO:root:episode batch 140, avg train loss 0.138175
+INFO:root:validation overall accuracy 0.546667
+INFO:root:0-shot: 0.044, 1-shot: 0.436, 2-shot: 0.608, 3-shot: 0.676, 4-shot: 0.764, 5-shot: 0.752, 
+INFO:root:episode batch 160, avg train loss 0.137498
+INFO:root:validation overall accuracy 0.550667
+INFO:root:0-shot: 0.036, 1-shot: 0.480, 2-shot: 0.624, 3-shot: 0.700, 4-shot: 0.700, 5-shot: 0.764, 
+INFO:root:episode batch 180, avg train loss 0.137043
+INFO:root:validation overall accuracy 0.549333
+INFO:root:0-shot: 0.040, 1-shot: 0.484, 2-shot: 0.628, 3-shot: 0.704, 4-shot: 0.704, 5-shot: 0.736, 
+INFO:root:episode batch 200, avg train loss 0.136782
+INFO:root:validation overall accuracy 0.560000
+INFO:root:0-shot: 0.068, 1-shot: 0.488, 2-shot: 0.636, 3-shot: 0.676, 4-shot: 0.712, 5-shot: 0.780, 
+INFO:root:episode batch 220, avg train loss 0.136390
+INFO:root:validation overall accuracy 0.549333
+INFO:root:0-shot: 0.024, 1-shot: 0.500, 2-shot: 0.584, 3-shot: 0.700, 4-shot: 0.740, 5-shot: 0.748, 
+INFO:root:episode batch 240, avg train loss 0.136153
+INFO:root:validation overall accuracy 0.560667
+INFO:root:0-shot: 0.044, 1-shot: 0.484, 2-shot: 0.628, 3-shot: 0.692, 4-shot: 0.752, 5-shot: 0.764, 
+INFO:root:episode batch 260, avg train loss 0.135989
+INFO:root:validation overall accuracy 0.571333
+INFO:root:0-shot: 0.036, 1-shot: 0.524, 2-shot: 0.668, 3-shot: 0.736, 4-shot: 0.716, 5-shot: 0.748, 
+INFO:root:episode batch 280, avg train loss 0.135791
+INFO:root:validation overall accuracy 0.558667
+INFO:root:0-shot: 0.032, 1-shot: 0.560, 2-shot: 0.620, 3-shot: 0.664, 4-shot: 0.724, 5-shot: 0.752, 
+INFO:root:episode batch 300, avg train loss 0.135742
+INFO:root:validation overall accuracy 0.581333
+INFO:root:0-shot: 0.044, 1-shot: 0.548, 2-shot: 0.668, 3-shot: 0.720, 4-shot: 0.740, 5-shot: 0.768, 
+INFO:root:episode batch 320, avg train loss 0.135625
+INFO:root:validation overall accuracy 0.576000
+INFO:root:0-shot: 0.044, 1-shot: 0.508, 2-shot: 0.640, 3-shot: 0.688, 4-shot: 0.768, 5-shot: 0.808, 
+INFO:root:episode batch 340, avg train loss 0.135569
+INFO:root:validation overall accuracy 0.568000
+INFO:root:0-shot: 0.056, 1-shot: 0.472, 2-shot: 0.644, 3-shot: 0.708, 4-shot: 0.768, 5-shot: 0.760, 
+INFO:root:episode batch 360, avg train loss 0.135553
+INFO:root:validation overall accuracy 0.596000
+INFO:root:0-shot: 0.032, 1-shot: 0.532, 2-shot: 0.688, 3-shot: 0.768, 4-shot: 0.776, 5-shot: 0.780, 
+INFO:root:episode batch 380, avg train loss 0.135461
+INFO:root:validation overall accuracy 0.575333
+INFO:root:0-shot: 0.036, 1-shot: 0.504, 2-shot: 0.672, 3-shot: 0.704, 4-shot: 0.732, 5-shot: 0.804, 
+INFO:root:episode batch 400, avg train loss 0.135365
+INFO:root:validation overall accuracy 0.548667
+INFO:root:0-shot: 0.016, 1-shot: 0.472, 2-shot: 0.660, 3-shot: 0.660, 4-shot: 0.736, 5-shot: 0.748, 
+INFO:root:episode batch 420, avg train loss 0.135386
+INFO:root:validation overall accuracy 0.586000
+INFO:root:0-shot: 0.040, 1-shot: 0.528, 2-shot: 0.656, 3-shot: 0.724, 4-shot: 0.756, 5-shot: 0.812, 
+INFO:root:episode batch 440, avg train loss 0.135358
+INFO:root:validation overall accuracy 0.581333
+INFO:root:0-shot: 0.040, 1-shot: 0.556, 2-shot: 0.660, 3-shot: 0.696, 4-shot: 0.780, 5-shot: 0.756, 
+INFO:root:episode batch 460, avg train loss 0.135247
+INFO:root:validation overall accuracy 0.560667
+INFO:root:0-shot: 0.024, 1-shot: 0.516, 2-shot: 0.636, 3-shot: 0.684, 4-shot: 0.744, 5-shot: 0.760, 
+INFO:root:episode batch 480, avg train loss 0.135354
+INFO:root:validation overall accuracy 0.600000
+INFO:root:0-shot: 0.036, 1-shot: 0.572, 2-shot: 0.672, 3-shot: 0.760, 4-shot: 0.784, 5-shot: 0.776, 
+INFO:root:episode batch 500, avg train loss 0.135306
+INFO:root:validation overall accuracy 0.598667
+INFO:root:0-shot: 0.040, 1-shot: 0.536, 2-shot: 0.684, 3-shot: 0.748, 4-shot: 0.780, 5-shot: 0.804, 
+INFO:root:episode batch 520, avg train loss 0.135294
+INFO:root:validation overall accuracy 0.582667
+INFO:root:0-shot: 0.044, 1-shot: 0.540, 2-shot: 0.672, 3-shot: 0.728, 4-shot: 0.744, 5-shot: 0.768, 
+INFO:root:episode batch 540, avg train loss 0.135375
+INFO:root:validation overall accuracy 0.590000
+INFO:root:0-shot: 0.060, 1-shot: 0.520, 2-shot: 0.696, 3-shot: 0.736, 4-shot: 0.760, 5-shot: 0.768, 
+INFO:root:episode batch 560, avg train loss 0.135476
+INFO:root:validation overall accuracy 0.594000
+INFO:root:0-shot: 0.032, 1-shot: 0.604, 2-shot: 0.684, 3-shot: 0.748, 4-shot: 0.740, 5-shot: 0.756, 
+INFO:root:episode batch 580, avg train loss 0.136435
+INFO:root:validation overall accuracy 0.579333
+INFO:root:0-shot: 0.032, 1-shot: 0.584, 2-shot: 0.664, 3-shot: 0.708, 4-shot: 0.712, 5-shot: 0.776, 
+INFO:root:episode batch 600, avg train loss 0.141553
+INFO:root:validation overall accuracy 0.604000
+INFO:root:0-shot: 0.044, 1-shot: 0.592, 2-shot: 0.700, 3-shot: 0.736, 4-shot: 0.776, 5-shot: 0.776, 
+INFO:root:episode batch 620, avg train loss 0.148690
+INFO:root:validation overall accuracy 0.612000
+INFO:root:0-shot: 0.032, 1-shot: 0.616, 2-shot: 0.716, 3-shot: 0.788, 4-shot: 0.740, 5-shot: 0.780, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.271223
+INFO:root:validation overall accuracy 0.484667
+INFO:root:0-shot: 0.040, 1-shot: 0.424, 2-shot: 0.524, 3-shot: 0.624, 4-shot: 0.632, 5-shot: 0.664, 
+INFO:root:episode batch 20, avg train loss 0.176675
+INFO:root:validation overall accuracy 0.504667
+INFO:root:0-shot: 0.036, 1-shot: 0.468, 2-shot: 0.568, 3-shot: 0.660, 4-shot: 0.636, 5-shot: 0.660, 
+INFO:root:episode batch 40, avg train loss 0.150960
+INFO:root:validation overall accuracy 0.520667
+INFO:root:0-shot: 0.056, 1-shot: 0.492, 2-shot: 0.584, 3-shot: 0.648, 4-shot: 0.672, 5-shot: 0.672, 
+INFO:root:episode batch 60, avg train loss 0.145206
+INFO:root:validation overall accuracy 0.559333
+INFO:root:0-shot: 0.048, 1-shot: 0.440, 2-shot: 0.620, 3-shot: 0.740, 4-shot: 0.756, 5-shot: 0.752, 
+INFO:root:episode batch 80, avg train loss 0.141915
+INFO:root:validation overall accuracy 0.528000
+INFO:root:0-shot: 0.032, 1-shot: 0.480, 2-shot: 0.600, 3-shot: 0.644, 4-shot: 0.732, 5-shot: 0.680, 
+INFO:root:episode batch 100, avg train loss 0.140296
+INFO:root:validation overall accuracy 0.519333
+INFO:root:0-shot: 0.032, 1-shot: 0.472, 2-shot: 0.564, 3-shot: 0.656, 4-shot: 0.720, 5-shot: 0.672, 
+INFO:root:episode batch 120, avg train loss 0.139232
+INFO:root:validation overall accuracy 0.542000
+INFO:root:0-shot: 0.048, 1-shot: 0.496, 2-shot: 0.616, 3-shot: 0.692, 4-shot: 0.732, 5-shot: 0.668, 
+INFO:root:episode batch 140, avg train loss 0.138339
+INFO:root:validation overall accuracy 0.545333
+INFO:root:0-shot: 0.044, 1-shot: 0.432, 2-shot: 0.628, 3-shot: 0.704, 4-shot: 0.732, 5-shot: 0.732, 
+INFO:root:episode batch 160, avg train loss 0.137682
+INFO:root:validation overall accuracy 0.562000
+INFO:root:0-shot: 0.036, 1-shot: 0.504, 2-shot: 0.648, 3-shot: 0.712, 4-shot: 0.728, 5-shot: 0.744, 
+INFO:root:episode batch 180, avg train loss 0.137140
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.040, 1-shot: 0.476, 2-shot: 0.632, 3-shot: 0.712, 4-shot: 0.752, 5-shot: 0.772, 
+INFO:root:episode batch 200, avg train loss 0.136875
+INFO:root:validation overall accuracy 0.584667
+INFO:root:0-shot: 0.068, 1-shot: 0.512, 2-shot: 0.704, 3-shot: 0.736, 4-shot: 0.712, 5-shot: 0.776, 
+INFO:root:episode batch 220, avg train loss 0.136550
+INFO:root:validation overall accuracy 0.561333
+INFO:root:0-shot: 0.024, 1-shot: 0.532, 2-shot: 0.580, 3-shot: 0.732, 4-shot: 0.716, 5-shot: 0.784, 
+INFO:root:episode batch 240, avg train loss 0.136255
+INFO:root:validation overall accuracy 0.572667
+INFO:root:0-shot: 0.044, 1-shot: 0.488, 2-shot: 0.672, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.784, 
+INFO:root:episode batch 260, avg train loss 0.136134
+INFO:root:validation overall accuracy 0.565333
+INFO:root:0-shot: 0.036, 1-shot: 0.480, 2-shot: 0.668, 3-shot: 0.704, 4-shot: 0.756, 5-shot: 0.748, 
+INFO:root:episode batch 280, avg train loss 0.135917
+INFO:root:validation overall accuracy 0.577333
+INFO:root:0-shot: 0.032, 1-shot: 0.568, 2-shot: 0.604, 3-shot: 0.704, 4-shot: 0.736, 5-shot: 0.820, 
+INFO:root:episode batch 300, avg train loss 0.135764
+INFO:root:validation overall accuracy 0.574667
+INFO:root:0-shot: 0.044, 1-shot: 0.564, 2-shot: 0.656, 3-shot: 0.676, 4-shot: 0.728, 5-shot: 0.780, 
+INFO:root:episode batch 320, avg train loss 0.135622
+INFO:root:validation overall accuracy 0.569333
+INFO:root:0-shot: 0.044, 1-shot: 0.504, 2-shot: 0.632, 3-shot: 0.704, 4-shot: 0.736, 5-shot: 0.796, 
+INFO:root:episode batch 340, avg train loss 0.135480
+INFO:root:validation overall accuracy 0.578667
+INFO:root:0-shot: 0.056, 1-shot: 0.504, 2-shot: 0.684, 3-shot: 0.728, 4-shot: 0.728, 5-shot: 0.772, 
+INFO:root:episode batch 360, avg train loss 0.135444
+INFO:root:validation overall accuracy 0.597333
+INFO:root:0-shot: 0.032, 1-shot: 0.528, 2-shot: 0.708, 3-shot: 0.768, 4-shot: 0.764, 5-shot: 0.784, 
+INFO:root:episode batch 380, avg train loss 0.135379
+INFO:root:validation overall accuracy 0.581333
+INFO:root:0-shot: 0.036, 1-shot: 0.556, 2-shot: 0.672, 3-shot: 0.704, 4-shot: 0.728, 5-shot: 0.792, 
+INFO:root:episode batch 400, avg train loss 0.135311
+INFO:root:validation overall accuracy 0.572667
+INFO:root:0-shot: 0.016, 1-shot: 0.504, 2-shot: 0.688, 3-shot: 0.712, 4-shot: 0.728, 5-shot: 0.788, 
+INFO:root:episode batch 420, avg train loss 0.135273
+INFO:root:validation overall accuracy 0.585333
+INFO:root:0-shot: 0.040, 1-shot: 0.520, 2-shot: 0.700, 3-shot: 0.740, 4-shot: 0.740, 5-shot: 0.772, 
+INFO:root:episode batch 440, avg train loss 0.135183
+INFO:root:validation overall accuracy 0.578000
+INFO:root:0-shot: 0.040, 1-shot: 0.532, 2-shot: 0.680, 3-shot: 0.668, 4-shot: 0.784, 5-shot: 0.764, 
+INFO:root:episode batch 460, avg train loss 0.135265
+INFO:root:validation overall accuracy 0.568667
+INFO:root:0-shot: 0.024, 1-shot: 0.504, 2-shot: 0.680, 3-shot: 0.712, 4-shot: 0.756, 5-shot: 0.736, 
+INFO:root:episode batch 480, avg train loss 0.135201
+INFO:root:validation overall accuracy 0.598667
+INFO:root:0-shot: 0.036, 1-shot: 0.552, 2-shot: 0.644, 3-shot: 0.760, 4-shot: 0.792, 5-shot: 0.808, 
+INFO:root:episode batch 500, avg train loss 0.135194
+INFO:root:validation overall accuracy 0.593333
+INFO:root:0-shot: 0.040, 1-shot: 0.556, 2-shot: 0.688, 3-shot: 0.716, 4-shot: 0.780, 5-shot: 0.780, 
+INFO:root:episode batch 520, avg train loss 0.135167
+INFO:root:validation overall accuracy 0.569333
+INFO:root:0-shot: 0.044, 1-shot: 0.520, 2-shot: 0.644, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.760, 
+INFO:root:episode batch 540, avg train loss 0.135242
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.060, 1-shot: 0.476, 2-shot: 0.656, 3-shot: 0.720, 4-shot: 0.744, 5-shot: 0.748, 
+INFO:root:episode batch 560, avg train loss 0.135142
+INFO:root:validation overall accuracy 0.591333
+INFO:root:0-shot: 0.032, 1-shot: 0.592, 2-shot: 0.676, 3-shot: 0.728, 4-shot: 0.752, 5-shot: 0.768, 
+INFO:root:episode batch 580, avg train loss 0.135164
+INFO:root:validation overall accuracy 0.566667
+INFO:root:0-shot: 0.032, 1-shot: 0.524, 2-shot: 0.608, 3-shot: 0.720, 4-shot: 0.728, 5-shot: 0.788, 
+INFO:root:episode batch 600, avg train loss 0.135233
+INFO:root:validation overall accuracy 0.612667
+INFO:root:0-shot: 0.044, 1-shot: 0.580, 2-shot: 0.692, 3-shot: 0.768, 4-shot: 0.780, 5-shot: 0.812, 
+INFO:root:episode batch 620, avg train loss 0.135203
+INFO:root:validation overall accuracy 0.587333
+INFO:root:0-shot: 0.032, 1-shot: 0.572, 2-shot: 0.660, 3-shot: 0.752, 4-shot: 0.752, 5-shot: 0.756, 
+INFO:root:episode batch 640, avg train loss 0.135315
+INFO:root:validation overall accuracy 0.601333
+INFO:root:0-shot: 0.040, 1-shot: 0.564, 2-shot: 0.684, 3-shot: 0.740, 4-shot: 0.808, 5-shot: 0.772, 
+INFO:root:episode batch 660, avg train loss 0.135396
+INFO:root:validation overall accuracy 0.615333
+INFO:root:0-shot: 0.040, 1-shot: 0.612, 2-shot: 0.724, 3-shot: 0.792, 4-shot: 0.740, 5-shot: 0.784, 
+INFO:root:episode batch 680, avg train loss 0.135758
+INFO:root:validation overall accuracy 0.614667
+INFO:root:0-shot: 0.048, 1-shot: 0.628, 2-shot: 0.688, 3-shot: 0.756, 4-shot: 0.780, 5-shot: 0.788, 
+INFO:root:episode batch 700, avg train loss 0.138730
+INFO:root:validation overall accuracy 0.590000
+INFO:root:0-shot: 0.044, 1-shot: 0.596, 2-shot: 0.680, 3-shot: 0.776, 4-shot: 0.716, 5-shot: 0.728, 
+INFO:root:episode batch 720, avg train loss 0.142861
+INFO:root:validation overall accuracy 0.600000
+INFO:root:0-shot: 0.044, 1-shot: 0.596, 2-shot: 0.716, 3-shot: 0.772, 4-shot: 0.744, 5-shot: 0.728, 
+INFO:root:episode batch 740, avg train loss 0.150473
+INFO:root:validation overall accuracy 0.632000
+INFO:root:0-shot: 0.048, 1-shot: 0.632, 2-shot: 0.772, 3-shot: 0.768, 4-shot: 0.812, 5-shot: 0.760, 
+INFO:root:episode batch 760, avg train loss 0.167734
+INFO:root:validation overall accuracy 0.631333
+INFO:root:0-shot: 0.052, 1-shot: 0.616, 2-shot: 0.712, 3-shot: 0.776, 4-shot: 0.816, 5-shot: 0.816, 
+INFO:root:episode batch 780, avg train loss 0.169626
+INFO:root:validation overall accuracy 0.658000
+INFO:root:0-shot: 0.060, 1-shot: 0.672, 2-shot: 0.740, 3-shot: 0.800, 4-shot: 0.848, 5-shot: 0.828, 
+INFO:root:episode batch 800, avg train loss 0.147469
+INFO:root:validation overall accuracy 0.686000
+INFO:root:0-shot: 0.060, 1-shot: 0.716, 2-shot: 0.796, 3-shot: 0.852, 4-shot: 0.812, 5-shot: 0.880, 
+INFO:root:episode batch 820, avg train loss 0.135693
+INFO:root:validation overall accuracy 0.717333
+INFO:root:0-shot: 0.056, 1-shot: 0.736, 2-shot: 0.848, 3-shot: 0.872, 4-shot: 0.888, 5-shot: 0.904, 
+INFO:root:episode batch 840, avg train loss 0.124607
+INFO:root:validation overall accuracy 0.716667
+INFO:root:0-shot: 0.064, 1-shot: 0.772, 2-shot: 0.844, 3-shot: 0.888, 4-shot: 0.872, 5-shot: 0.860, 
+INFO:root:episode batch 860, avg train loss 0.117587
+INFO:root:validation overall accuracy 0.750667
+INFO:root:0-shot: 0.088, 1-shot: 0.800, 2-shot: 0.872, 3-shot: 0.900, 4-shot: 0.912, 5-shot: 0.932, 
+INFO:root:episode batch 880, avg train loss 0.112343
+INFO:root:validation overall accuracy 0.732000
+INFO:root:0-shot: 0.052, 1-shot: 0.820, 2-shot: 0.824, 3-shot: 0.888, 4-shot: 0.892, 5-shot: 0.916, 
+INFO:root:episode batch 900, avg train loss 0.109287
+INFO:root:validation overall accuracy 0.736000
+INFO:root:0-shot: 0.080, 1-shot: 0.764, 2-shot: 0.880, 3-shot: 0.892, 4-shot: 0.908, 5-shot: 0.892, 
+INFO:root:episode batch 920, avg train loss 0.106188
+INFO:root:validation overall accuracy 0.760000
+INFO:root:0-shot: 0.072, 1-shot: 0.852, 2-shot: 0.900, 3-shot: 0.908, 4-shot: 0.932, 5-shot: 0.896, 
+INFO:root:episode batch 940, avg train loss 0.105291
+INFO:root:validation overall accuracy 0.764000
+INFO:root:0-shot: 0.076, 1-shot: 0.852, 2-shot: 0.892, 3-shot: 0.904, 4-shot: 0.928, 5-shot: 0.932, 
+INFO:root:episode batch 960, avg train loss 0.102051
+INFO:root:validation overall accuracy 0.766000
+INFO:root:0-shot: 0.060, 1-shot: 0.808, 2-shot: 0.916, 3-shot: 0.956, 4-shot: 0.908, 5-shot: 0.948, 
+INFO:root:episode batch 980, avg train loss 0.099284
+INFO:root:validation overall accuracy 0.770000
+INFO:root:0-shot: 0.080, 1-shot: 0.836, 2-shot: 0.892, 3-shot: 0.920, 4-shot: 0.956, 5-shot: 0.936, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.279694
+INFO:root:validation overall accuracy 0.518667
+INFO:root:0-shot: 0.040, 1-shot: 0.460, 2-shot: 0.580, 3-shot: 0.636, 4-shot: 0.684, 5-shot: 0.712, 
+INFO:root:episode batch 20, avg train loss 0.174482
+INFO:root:validation overall accuracy 0.534000
+INFO:root:0-shot: 0.036, 1-shot: 0.468, 2-shot: 0.580, 3-shot: 0.676, 4-shot: 0.676, 5-shot: 0.768, 
+INFO:root:episode batch 40, avg train loss 0.149519
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.056, 1-shot: 0.504, 2-shot: 0.612, 3-shot: 0.692, 4-shot: 0.668, 5-shot: 0.708, 
+INFO:root:episode batch 60, avg train loss 0.144413
+INFO:root:validation overall accuracy 0.570000
+INFO:root:0-shot: 0.048, 1-shot: 0.520, 2-shot: 0.624, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.780, 
+INFO:root:episode batch 80, avg train loss 0.141678
+INFO:root:validation overall accuracy 0.544667
+INFO:root:0-shot: 0.032, 1-shot: 0.480, 2-shot: 0.672, 3-shot: 0.660, 4-shot: 0.720, 5-shot: 0.704, 
+INFO:root:episode batch 100, avg train loss 0.140131
+INFO:root:validation overall accuracy 0.544667
+INFO:root:0-shot: 0.032, 1-shot: 0.496, 2-shot: 0.604, 3-shot: 0.668, 4-shot: 0.712, 5-shot: 0.756, 
+INFO:root:episode batch 120, avg train loss 0.138822
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.048, 1-shot: 0.528, 2-shot: 0.692, 3-shot: 0.696, 4-shot: 0.712, 5-shot: 0.728, 
+INFO:root:episode batch 140, avg train loss 0.138052
+INFO:root:validation overall accuracy 0.580667
+INFO:root:0-shot: 0.044, 1-shot: 0.496, 2-shot: 0.708, 3-shot: 0.692, 4-shot: 0.748, 5-shot: 0.796, 
+INFO:root:episode batch 160, avg train loss 0.137321
+INFO:root:validation overall accuracy 0.570667
+INFO:root:0-shot: 0.036, 1-shot: 0.496, 2-shot: 0.668, 3-shot: 0.732, 4-shot: 0.744, 5-shot: 0.748, 
+INFO:root:episode batch 180, avg train loss 0.137033
+INFO:root:validation overall accuracy 0.580000
+INFO:root:0-shot: 0.040, 1-shot: 0.544, 2-shot: 0.652, 3-shot: 0.740, 4-shot: 0.748, 5-shot: 0.756, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.260009
+INFO:root:validation overall accuracy 0.496667
+INFO:root:0-shot: 0.040, 1-shot: 0.428, 2-shot: 0.524, 3-shot: 0.636, 4-shot: 0.664, 5-shot: 0.688, 
+INFO:root:episode batch 20, avg train loss 0.172115
+INFO:root:validation overall accuracy 0.509333
+INFO:root:0-shot: 0.036, 1-shot: 0.420, 2-shot: 0.556, 3-shot: 0.644, 4-shot: 0.672, 5-shot: 0.728, 
+INFO:root:episode batch 40, avg train loss 0.148927
+INFO:root:validation overall accuracy 0.523333
+INFO:root:0-shot: 0.056, 1-shot: 0.456, 2-shot: 0.584, 3-shot: 0.668, 4-shot: 0.684, 5-shot: 0.692, 
+INFO:root:episode batch 60, avg train loss 0.143556
+INFO:root:validation overall accuracy 0.550667
+INFO:root:0-shot: 0.048, 1-shot: 0.440, 2-shot: 0.620, 3-shot: 0.696, 4-shot: 0.736, 5-shot: 0.764, 
+INFO:root:episode batch 80, avg train loss 0.141447
+INFO:root:validation overall accuracy 0.547333
+INFO:root:0-shot: 0.032, 1-shot: 0.496, 2-shot: 0.636, 3-shot: 0.688, 4-shot: 0.736, 5-shot: 0.696, 
+INFO:root:episode batch 100, avg train loss 0.139777
+INFO:root:validation overall accuracy 0.553333
+INFO:root:0-shot: 0.032, 1-shot: 0.468, 2-shot: 0.616, 3-shot: 0.720, 4-shot: 0.760, 5-shot: 0.724, 
+INFO:root:episode batch 120, avg train loss 0.138606
+INFO:root:validation overall accuracy 0.540667
+INFO:root:0-shot: 0.048, 1-shot: 0.488, 2-shot: 0.620, 3-shot: 0.672, 4-shot: 0.732, 5-shot: 0.684, 
+INFO:root:episode batch 140, avg train loss 0.137744
+INFO:root:validation overall accuracy 0.541333
+INFO:root:0-shot: 0.044, 1-shot: 0.456, 2-shot: 0.600, 3-shot: 0.680, 4-shot: 0.744, 5-shot: 0.724, 
+INFO:root:episode batch 160, avg train loss 0.137275
+INFO:root:validation overall accuracy 0.576000
+INFO:root:0-shot: 0.036, 1-shot: 0.496, 2-shot: 0.668, 3-shot: 0.748, 4-shot: 0.732, 5-shot: 0.776, 
+INFO:root:episode batch 180, avg train loss 0.136957
+INFO:root:validation overall accuracy 0.560000
+INFO:root:0-shot: 0.040, 1-shot: 0.496, 2-shot: 0.660, 3-shot: 0.716, 4-shot: 0.700, 5-shot: 0.748, 
+INFO:root:episode batch 200, avg train loss 0.136591
+INFO:root:validation overall accuracy 0.592667
+INFO:root:0-shot: 0.068, 1-shot: 0.516, 2-shot: 0.660, 3-shot: 0.724, 4-shot: 0.788, 5-shot: 0.800, 
+INFO:root:episode batch 220, avg train loss 0.136362
+INFO:root:validation overall accuracy 0.556000
+INFO:root:0-shot: 0.024, 1-shot: 0.488, 2-shot: 0.572, 3-shot: 0.728, 4-shot: 0.764, 5-shot: 0.760, 
+INFO:root:episode batch 240, avg train loss 0.136037
+INFO:root:validation overall accuracy 0.583333
+INFO:root:0-shot: 0.044, 1-shot: 0.516, 2-shot: 0.624, 3-shot: 0.716, 4-shot: 0.780, 5-shot: 0.820, 
+INFO:root:episode batch 260, avg train loss 0.135827
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.036, 1-shot: 0.500, 2-shot: 0.652, 3-shot: 0.692, 4-shot: 0.796, 5-shot: 0.720, 
+INFO:root:episode batch 280, avg train loss 0.135775
+INFO:root:validation overall accuracy 0.581333
+INFO:root:0-shot: 0.032, 1-shot: 0.544, 2-shot: 0.636, 3-shot: 0.740, 4-shot: 0.752, 5-shot: 0.784, 
+INFO:root:episode batch 300, avg train loss 0.135656
+INFO:root:validation overall accuracy 0.580667
+INFO:root:0-shot: 0.044, 1-shot: 0.552, 2-shot: 0.684, 3-shot: 0.680, 4-shot: 0.748, 5-shot: 0.776, 
+INFO:root:episode batch 320, avg train loss 0.135569
+INFO:root:validation overall accuracy 0.588000
+INFO:root:0-shot: 0.044, 1-shot: 0.548, 2-shot: 0.660, 3-shot: 0.712, 4-shot: 0.768, 5-shot: 0.796, 
+INFO:root:episode batch 340, avg train loss 0.135470
+INFO:root:validation overall accuracy 0.586000
+INFO:root:0-shot: 0.056, 1-shot: 0.516, 2-shot: 0.700, 3-shot: 0.704, 4-shot: 0.780, 5-shot: 0.760, 
+INFO:root:episode batch 360, avg train loss 0.135420
+INFO:root:validation overall accuracy 0.594667
+INFO:root:0-shot: 0.032, 1-shot: 0.524, 2-shot: 0.668, 3-shot: 0.784, 4-shot: 0.768, 5-shot: 0.792, 
+INFO:root:episode batch 380, avg train loss 0.135303
+INFO:root:validation overall accuracy 0.596667
+INFO:root:0-shot: 0.036, 1-shot: 0.552, 2-shot: 0.732, 3-shot: 0.720, 4-shot: 0.724, 5-shot: 0.816, 
+INFO:root:episode batch 400, avg train loss 0.135232
+INFO:root:validation overall accuracy 0.579333
+INFO:root:0-shot: 0.016, 1-shot: 0.532, 2-shot: 0.676, 3-shot: 0.712, 4-shot: 0.744, 5-shot: 0.796, 
+INFO:root:episode batch 420, avg train loss 0.135261
+INFO:root:validation overall accuracy 0.603333
+INFO:root:0-shot: 0.040, 1-shot: 0.552, 2-shot: 0.744, 3-shot: 0.732, 4-shot: 0.784, 5-shot: 0.768, 
+INFO:root:episode batch 440, avg train loss 0.135205
+INFO:root:validation overall accuracy 0.585333
+INFO:root:0-shot: 0.040, 1-shot: 0.520, 2-shot: 0.696, 3-shot: 0.692, 4-shot: 0.800, 5-shot: 0.764, 
+INFO:root:episode batch 460, avg train loss 0.135216
+INFO:root:validation overall accuracy 0.565333
+INFO:root:0-shot: 0.024, 1-shot: 0.492, 2-shot: 0.664, 3-shot: 0.696, 4-shot: 0.752, 5-shot: 0.764, 
+INFO:root:episode batch 480, avg train loss 0.135145
+INFO:root:validation overall accuracy 0.601333
+INFO:root:0-shot: 0.036, 1-shot: 0.528, 2-shot: 0.672, 3-shot: 0.780, 4-shot: 0.800, 5-shot: 0.792, 
+INFO:root:episode batch 500, avg train loss 0.135187
+INFO:root:validation overall accuracy 0.594000
+INFO:root:0-shot: 0.040, 1-shot: 0.564, 2-shot: 0.668, 3-shot: 0.700, 4-shot: 0.780, 5-shot: 0.812, 
+INFO:root:episode batch 520, avg train loss 0.135177
+INFO:root:validation overall accuracy 0.568000
+INFO:root:0-shot: 0.044, 1-shot: 0.516, 2-shot: 0.656, 3-shot: 0.696, 4-shot: 0.764, 5-shot: 0.732, 
+INFO:root:episode batch 540, avg train loss 0.135126
+INFO:root:validation overall accuracy 0.585333
+INFO:root:0-shot: 0.060, 1-shot: 0.520, 2-shot: 0.724, 3-shot: 0.728, 4-shot: 0.744, 5-shot: 0.736, 
+INFO:root:episode batch 560, avg train loss 0.135150
+INFO:root:validation overall accuracy 0.586000
+INFO:root:0-shot: 0.032, 1-shot: 0.540, 2-shot: 0.640, 3-shot: 0.768, 4-shot: 0.740, 5-shot: 0.796, 
+INFO:root:episode batch 580, avg train loss 0.135160
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.032, 1-shot: 0.532, 2-shot: 0.620, 3-shot: 0.720, 4-shot: 0.712, 5-shot: 0.780, 
+INFO:root:episode batch 600, avg train loss 0.135157
+INFO:root:validation overall accuracy 0.602667
+INFO:root:0-shot: 0.044, 1-shot: 0.576, 2-shot: 0.660, 3-shot: 0.736, 4-shot: 0.808, 5-shot: 0.792, 
+INFO:root:episode batch 620, avg train loss 0.135193
+INFO:root:validation overall accuracy 0.567333
+INFO:root:0-shot: 0.032, 1-shot: 0.528, 2-shot: 0.604, 3-shot: 0.752, 4-shot: 0.744, 5-shot: 0.744, 
+INFO:root:episode batch 640, avg train loss 0.135145
+INFO:root:validation overall accuracy 0.589333
+INFO:root:0-shot: 0.040, 1-shot: 0.520, 2-shot: 0.684, 3-shot: 0.756, 4-shot: 0.776, 5-shot: 0.760, 
+INFO:root:episode batch 660, avg train loss 0.135203
+INFO:root:validation overall accuracy 0.590000
+INFO:root:0-shot: 0.040, 1-shot: 0.544, 2-shot: 0.688, 3-shot: 0.740, 4-shot: 0.740, 5-shot: 0.788, 
+INFO:root:episode batch 680, avg train loss 0.135168
+INFO:root:validation overall accuracy 0.599333
+INFO:root:0-shot: 0.048, 1-shot: 0.592, 2-shot: 0.688, 3-shot: 0.716, 4-shot: 0.780, 5-shot: 0.772, 
+INFO:root:episode batch 700, avg train loss 0.135237
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.044, 1-shot: 0.516, 2-shot: 0.652, 3-shot: 0.712, 4-shot: 0.740, 5-shot: 0.732, 
+INFO:root:episode batch 720, avg train loss 0.135233
+INFO:root:validation overall accuracy 0.585333
+INFO:root:0-shot: 0.044, 1-shot: 0.528, 2-shot: 0.660, 3-shot: 0.780, 4-shot: 0.760, 5-shot: 0.740, 
+INFO:root:episode batch 740, avg train loss 0.135227
+INFO:root:validation overall accuracy 0.608000
+INFO:root:0-shot: 0.048, 1-shot: 0.564, 2-shot: 0.688, 3-shot: 0.752, 4-shot: 0.828, 5-shot: 0.768, 
+INFO:root:episode batch 760, avg train loss 0.135257
+INFO:root:validation overall accuracy 0.587333
+INFO:root:0-shot: 0.052, 1-shot: 0.516, 2-shot: 0.660, 3-shot: 0.748, 4-shot: 0.776, 5-shot: 0.772, 
+INFO:root:episode batch 780, avg train loss 0.135327
+INFO:root:validation overall accuracy 0.583333
+INFO:root:0-shot: 0.036, 1-shot: 0.548, 2-shot: 0.668, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.800, 
+INFO:root:episode batch 800, avg train loss 0.135338
+INFO:root:validation overall accuracy 0.587333
+INFO:root:0-shot: 0.056, 1-shot: 0.552, 2-shot: 0.684, 3-shot: 0.752, 4-shot: 0.696, 5-shot: 0.784, 
+INFO:root:episode batch 820, avg train loss 0.135352
+INFO:root:validation overall accuracy 0.600000
+INFO:root:0-shot: 0.024, 1-shot: 0.592, 2-shot: 0.700, 3-shot: 0.768, 4-shot: 0.736, 5-shot: 0.780, 
+INFO:root:episode batch 840, avg train loss 0.135434
+INFO:root:validation overall accuracy 0.607333
+INFO:root:0-shot: 0.036, 1-shot: 0.604, 2-shot: 0.696, 3-shot: 0.748, 4-shot: 0.780, 5-shot: 0.780, 
+INFO:root:episode batch 860, avg train loss 0.135656
+INFO:root:validation overall accuracy 0.614000
+INFO:root:0-shot: 0.044, 1-shot: 0.628, 2-shot: 0.692, 3-shot: 0.776, 4-shot: 0.772, 5-shot: 0.772, 
+INFO:root:episode batch 880, avg train loss 0.138899
+INFO:root:validation overall accuracy 0.600667
+INFO:root:0-shot: 0.016, 1-shot: 0.604, 2-shot: 0.716, 3-shot: 0.740, 4-shot: 0.752, 5-shot: 0.776, 
+INFO:root:episode batch 900, avg train loss 0.144017
+INFO:root:validation overall accuracy 0.591333
+INFO:root:0-shot: 0.040, 1-shot: 0.564, 2-shot: 0.708, 3-shot: 0.752, 4-shot: 0.760, 5-shot: 0.724, 
+INFO:root:episode batch 920, avg train loss 0.150495
+INFO:root:validation overall accuracy 0.626667
+INFO:root:0-shot: 0.048, 1-shot: 0.632, 2-shot: 0.752, 3-shot: 0.752, 4-shot: 0.804, 5-shot: 0.772, 
+INFO:root:episode batch 940, avg train loss 0.169470
+INFO:root:validation overall accuracy 0.638000
+INFO:root:0-shot: 0.048, 1-shot: 0.692, 2-shot: 0.744, 3-shot: 0.764, 4-shot: 0.800, 5-shot: 0.780, 
+INFO:root:episode batch 960, avg train loss 0.170281
+INFO:root:validation overall accuracy 0.662667
+INFO:root:0-shot: 0.052, 1-shot: 0.696, 2-shot: 0.756, 3-shot: 0.824, 4-shot: 0.804, 5-shot: 0.844, 
+INFO:root:episode batch 980, avg train loss 0.149232
+INFO:root:validation overall accuracy 0.688667
+INFO:root:0-shot: 0.088, 1-shot: 0.728, 2-shot: 0.792, 3-shot: 0.796, 4-shot: 0.860, 5-shot: 0.868, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 30
+INFO:root:episode_width 5
+INFO:root:memory_size 10000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.266761
+INFO:root:validation overall accuracy 0.490000
+INFO:root:0-shot: 0.040, 1-shot: 0.408, 2-shot: 0.532, 3-shot: 0.616, 4-shot: 0.668, 5-shot: 0.676, 
+INFO:root:episode batch 20, avg train loss 0.170975
+INFO:root:validation overall accuracy 0.500000
+INFO:root:0-shot: 0.036, 1-shot: 0.472, 2-shot: 0.560, 3-shot: 0.616, 4-shot: 0.608, 5-shot: 0.708, 
+INFO:root:episode batch 40, avg train loss 0.148828
+INFO:root:validation overall accuracy 0.506000
+INFO:root:0-shot: 0.056, 1-shot: 0.444, 2-shot: 0.536, 3-shot: 0.652, 4-shot: 0.644, 5-shot: 0.704, 
+INFO:root:episode batch 60, avg train loss 0.144279
+INFO:root:validation overall accuracy 0.556000
+INFO:root:0-shot: 0.048, 1-shot: 0.484, 2-shot: 0.644, 3-shot: 0.664, 4-shot: 0.724, 5-shot: 0.772, 
+INFO:root:episode batch 80, avg train loss 0.141599
+INFO:root:validation overall accuracy 0.524667
+INFO:root:0-shot: 0.032, 1-shot: 0.444, 2-shot: 0.584, 3-shot: 0.648, 4-shot: 0.744, 5-shot: 0.696, 
+INFO:root:episode batch 100, avg train loss 0.139877
+INFO:root:validation overall accuracy 0.538000
+INFO:root:0-shot: 0.032, 1-shot: 0.472, 2-shot: 0.564, 3-shot: 0.652, 4-shot: 0.748, 5-shot: 0.760, 
+INFO:root:episode batch 120, avg train loss 0.138785
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.048, 1-shot: 0.468, 2-shot: 0.620, 3-shot: 0.656, 4-shot: 0.720, 5-shot: 0.728, 
+INFO:root:episode batch 140, avg train loss 0.137842
+INFO:root:validation overall accuracy 0.543333
+INFO:root:0-shot: 0.044, 1-shot: 0.424, 2-shot: 0.592, 3-shot: 0.692, 4-shot: 0.740, 5-shot: 0.768, 
+INFO:root:episode batch 160, avg train loss 0.137340
+INFO:root:validation overall accuracy 0.556667
+INFO:root:0-shot: 0.036, 1-shot: 0.496, 2-shot: 0.632, 3-shot: 0.692, 4-shot: 0.712, 5-shot: 0.772, 
+INFO:root:episode batch 180, avg train loss 0.136883
+INFO:root:validation overall accuracy 0.540000
+INFO:root:0-shot: 0.040, 1-shot: 0.460, 2-shot: 0.636, 3-shot: 0.664, 4-shot: 0.692, 5-shot: 0.748, 
+INFO:root:episode batch 200, avg train loss 0.136595
+INFO:root:validation overall accuracy 0.586667
+INFO:root:0-shot: 0.068, 1-shot: 0.516, 2-shot: 0.668, 3-shot: 0.724, 4-shot: 0.752, 5-shot: 0.792, 
+INFO:root:episode batch 220, avg train loss 0.136376
+INFO:root:validation overall accuracy 0.564000
+INFO:root:0-shot: 0.024, 1-shot: 0.508, 2-shot: 0.580, 3-shot: 0.756, 4-shot: 0.752, 5-shot: 0.764, 
+INFO:root:episode batch 240, avg train loss 0.136104
+INFO:root:validation overall accuracy 0.572667
+INFO:root:0-shot: 0.044, 1-shot: 0.500, 2-shot: 0.640, 3-shot: 0.728, 4-shot: 0.756, 5-shot: 0.768, 
+INFO:root:episode batch 260, avg train loss 0.135923
+INFO:root:validation overall accuracy 0.568667
+INFO:root:0-shot: 0.036, 1-shot: 0.524, 2-shot: 0.672, 3-shot: 0.716, 4-shot: 0.768, 5-shot: 0.696, 
+INFO:root:episode batch 280, avg train loss 0.135798
+INFO:root:validation overall accuracy 0.565333
+INFO:root:0-shot: 0.032, 1-shot: 0.544, 2-shot: 0.604, 3-shot: 0.716, 4-shot: 0.716, 5-shot: 0.780, 
+INFO:root:episode batch 300, avg train loss 0.135684
+INFO:root:validation overall accuracy 0.586000
+INFO:root:0-shot: 0.044, 1-shot: 0.576, 2-shot: 0.688, 3-shot: 0.700, 4-shot: 0.740, 5-shot: 0.768, 
+INFO:root:episode batch 320, avg train loss 0.135608
+INFO:root:validation overall accuracy 0.580000
+INFO:root:0-shot: 0.044, 1-shot: 0.520, 2-shot: 0.648, 3-shot: 0.704, 4-shot: 0.756, 5-shot: 0.808, 
+INFO:root:episode batch 340, avg train loss 0.135463
+INFO:root:validation overall accuracy 0.566000
+INFO:root:0-shot: 0.056, 1-shot: 0.496, 2-shot: 0.688, 3-shot: 0.632, 4-shot: 0.772, 5-shot: 0.752, 
+INFO:root:episode batch 360, avg train loss 0.135415
+INFO:root:validation overall accuracy 0.598667
+INFO:root:0-shot: 0.032, 1-shot: 0.536, 2-shot: 0.696, 3-shot: 0.740, 4-shot: 0.788, 5-shot: 0.800, 
+INFO:root:episode batch 380, avg train loss 0.135279
+INFO:root:validation overall accuracy 0.598000
+INFO:root:0-shot: 0.036, 1-shot: 0.576, 2-shot: 0.700, 3-shot: 0.712, 4-shot: 0.752, 5-shot: 0.812, 
+INFO:root:episode batch 400, avg train loss 0.135241
+INFO:root:validation overall accuracy 0.560000
+INFO:root:0-shot: 0.016, 1-shot: 0.488, 2-shot: 0.700, 3-shot: 0.684, 4-shot: 0.736, 5-shot: 0.736, 
+INFO:root:episode batch 420, avg train loss 0.135297
+INFO:root:validation overall accuracy 0.594000
+INFO:root:0-shot: 0.040, 1-shot: 0.580, 2-shot: 0.720, 3-shot: 0.708, 4-shot: 0.736, 5-shot: 0.780, 
+INFO:root:episode batch 440, avg train loss 0.135193
+INFO:root:validation overall accuracy 0.573333
+INFO:root:0-shot: 0.040, 1-shot: 0.508, 2-shot: 0.656, 3-shot: 0.720, 4-shot: 0.748, 5-shot: 0.768, 
+INFO:root:episode batch 460, avg train loss 0.135126
+INFO:root:validation overall accuracy 0.563333
+INFO:root:0-shot: 0.024, 1-shot: 0.500, 2-shot: 0.656, 3-shot: 0.708, 4-shot: 0.740, 5-shot: 0.752, 
+INFO:root:episode batch 480, avg train loss 0.135164
+INFO:root:validation overall accuracy 0.612667
+INFO:root:0-shot: 0.036, 1-shot: 0.556, 2-shot: 0.688, 3-shot: 0.776, 4-shot: 0.816, 5-shot: 0.804, 
+INFO:root:episode batch 500, avg train loss 0.135152
+INFO:root:validation overall accuracy 0.604667
+INFO:root:0-shot: 0.040, 1-shot: 0.564, 2-shot: 0.712, 3-shot: 0.736, 4-shot: 0.768, 5-shot: 0.808, 
+INFO:root:episode batch 520, avg train loss 0.135206
+INFO:root:validation overall accuracy 0.578667
+INFO:root:0-shot: 0.044, 1-shot: 0.536, 2-shot: 0.664, 3-shot: 0.716, 4-shot: 0.752, 5-shot: 0.760, 
+INFO:root:episode batch 540, avg train loss 0.135129
+INFO:root:validation overall accuracy 0.586667
+INFO:root:0-shot: 0.060, 1-shot: 0.528, 2-shot: 0.688, 3-shot: 0.728, 4-shot: 0.768, 5-shot: 0.748, 
+INFO:root:episode batch 560, avg train loss 0.135107
+INFO:root:validation overall accuracy 0.598000
+INFO:root:0-shot: 0.032, 1-shot: 0.576, 2-shot: 0.692, 3-shot: 0.756, 4-shot: 0.788, 5-shot: 0.744, 
+INFO:root:episode batch 580, avg train loss 0.135175
+INFO:root:validation overall accuracy 0.570000
+INFO:root:0-shot: 0.032, 1-shot: 0.556, 2-shot: 0.648, 3-shot: 0.720, 4-shot: 0.692, 5-shot: 0.772, 
+INFO:root:episode batch 600, avg train loss 0.135194
+INFO:root:validation overall accuracy 0.598667
+INFO:root:0-shot: 0.044, 1-shot: 0.572, 2-shot: 0.688, 3-shot: 0.736, 4-shot: 0.780, 5-shot: 0.772, 
+INFO:root:episode batch 620, avg train loss 0.135342
+INFO:root:validation overall accuracy 0.596000
+INFO:root:0-shot: 0.032, 1-shot: 0.572, 2-shot: 0.660, 3-shot: 0.784, 4-shot: 0.768, 5-shot: 0.760, 
+INFO:root:episode batch 640, avg train loss 0.136787
+INFO:root:validation overall accuracy 0.590000
+INFO:root:0-shot: 0.040, 1-shot: 0.552, 2-shot: 0.660, 3-shot: 0.764, 4-shot: 0.756, 5-shot: 0.768, 
+INFO:root:episode batch 660, avg train loss 0.141746
+INFO:root:validation overall accuracy 0.602667
+INFO:root:0-shot: 0.040, 1-shot: 0.648, 2-shot: 0.700, 3-shot: 0.716, 4-shot: 0.732, 5-shot: 0.780, 
+INFO:root:episode batch 680, avg train loss 0.149226
+INFO:root:validation overall accuracy 0.610000
+INFO:root:0-shot: 0.048, 1-shot: 0.636, 2-shot: 0.672, 3-shot: 0.756, 4-shot: 0.776, 5-shot: 0.772, 
+INFO:root:episode batch 700, avg train loss 0.168981
+INFO:root:validation overall accuracy 0.619333
+INFO:root:0-shot: 0.044, 1-shot: 0.624, 2-shot: 0.740, 3-shot: 0.740, 4-shot: 0.796, 5-shot: 0.772, 
+INFO:root:episode batch 720, avg train loss 0.171825
+INFO:root:validation overall accuracy 0.649333
+INFO:root:0-shot: 0.056, 1-shot: 0.672, 2-shot: 0.736, 3-shot: 0.840, 4-shot: 0.824, 5-shot: 0.768, 
+INFO:root:episode batch 740, avg train loss 0.151504
+INFO:root:validation overall accuracy 0.687333
+INFO:root:0-shot: 0.076, 1-shot: 0.684, 2-shot: 0.800, 3-shot: 0.836, 4-shot: 0.876, 5-shot: 0.852, 
+INFO:root:episode batch 760, avg train loss 0.137825
+INFO:root:validation overall accuracy 0.690667
+INFO:root:0-shot: 0.060, 1-shot: 0.692, 2-shot: 0.784, 3-shot: 0.852, 4-shot: 0.884, 5-shot: 0.872, 
+INFO:root:episode batch 780, avg train loss 0.126828
+INFO:root:validation overall accuracy 0.718000
+INFO:root:0-shot: 0.068, 1-shot: 0.772, 2-shot: 0.828, 3-shot: 0.892, 4-shot: 0.876, 5-shot: 0.872, 
+INFO:root:episode batch 800, avg train loss 0.119664
+INFO:root:validation overall accuracy 0.716667
+INFO:root:0-shot: 0.060, 1-shot: 0.756, 2-shot: 0.820, 3-shot: 0.888, 4-shot: 0.864, 5-shot: 0.912, 
+INFO:root:episode batch 820, avg train loss 0.116653
+INFO:root:validation overall accuracy 0.736667
+INFO:root:0-shot: 0.044, 1-shot: 0.764, 2-shot: 0.884, 3-shot: 0.888, 4-shot: 0.904, 5-shot: 0.936, 
+INFO:root:episode batch 840, avg train loss 0.112514
+INFO:root:validation overall accuracy 0.744667
+INFO:root:0-shot: 0.076, 1-shot: 0.804, 2-shot: 0.852, 3-shot: 0.932, 4-shot: 0.904, 5-shot: 0.900, 
+INFO:root:episode batch 860, avg train loss 0.110141
+INFO:root:validation overall accuracy 0.766000
+INFO:root:0-shot: 0.088, 1-shot: 0.800, 2-shot: 0.928, 3-shot: 0.908, 4-shot: 0.936, 5-shot: 0.936, 
+INFO:root:episode batch 880, avg train loss 0.104869
+INFO:root:validation overall accuracy 0.752667
+INFO:root:0-shot: 0.076, 1-shot: 0.820, 2-shot: 0.848, 3-shot: 0.896, 4-shot: 0.932, 5-shot: 0.944, 
+INFO:root:episode batch 900, avg train loss 0.103045
+INFO:root:validation overall accuracy 0.744667
+INFO:root:0-shot: 0.068, 1-shot: 0.776, 2-shot: 0.900, 3-shot: 0.912, 4-shot: 0.912, 5-shot: 0.900, 
+INFO:root:episode batch 920, avg train loss 0.101656
+INFO:root:validation overall accuracy 0.772667
+INFO:root:0-shot: 0.072, 1-shot: 0.860, 2-shot: 0.920, 3-shot: 0.928, 4-shot: 0.948, 5-shot: 0.908, 
+INFO:root:episode batch 940, avg train loss 0.100922
+INFO:root:validation overall accuracy 0.774000
+INFO:root:0-shot: 0.064, 1-shot: 0.860, 2-shot: 0.920, 3-shot: 0.920, 4-shot: 0.932, 5-shot: 0.948, 
+INFO:root:episode batch 960, avg train loss 0.097069
+INFO:root:validation overall accuracy 0.781333
+INFO:root:0-shot: 0.080, 1-shot: 0.856, 2-shot: 0.928, 3-shot: 0.964, 4-shot: 0.924, 5-shot: 0.936, 
+INFO:root:episode batch 980, avg train loss 0.095069
+INFO:root:validation overall accuracy 0.775333
+INFO:root:0-shot: 0.088, 1-shot: 0.856, 2-shot: 0.904, 3-shot: 0.908, 4-shot: 0.940, 5-shot: 0.956, 
+INFO:root:episode batch 1000, avg train loss 0.095797
+INFO:root:validation overall accuracy 0.778667
+INFO:root:0-shot: 0.048, 1-shot: 0.876, 2-shot: 0.896, 3-shot: 0.960, 4-shot: 0.956, 5-shot: 0.936, 
+INFO:root:episode batch 1020, avg train loss 0.093034
+INFO:root:validation overall accuracy 0.772000
+INFO:root:0-shot: 0.076, 1-shot: 0.836, 2-shot: 0.916, 3-shot: 0.900, 4-shot: 0.952, 5-shot: 0.952, 
+INFO:root:episode batch 1040, avg train loss 0.091153
+INFO:root:validation overall accuracy 0.784000
+INFO:root:0-shot: 0.084, 1-shot: 0.860, 2-shot: 0.936, 3-shot: 0.928, 4-shot: 0.968, 5-shot: 0.928, 
+INFO:root:episode batch 1060, avg train loss 0.090627
+INFO:root:validation overall accuracy 0.776667
+INFO:root:0-shot: 0.064, 1-shot: 0.864, 2-shot: 0.924, 3-shot: 0.924, 4-shot: 0.944, 5-shot: 0.940, 
+INFO:root:episode batch 1080, avg train loss 0.086181
+INFO:root:validation overall accuracy 0.779333
+INFO:root:0-shot: 0.060, 1-shot: 0.860, 2-shot: 0.940, 3-shot: 0.948, 4-shot: 0.932, 5-shot: 0.936, 
+INFO:root:episode batch 1100, avg train loss 0.087998
+INFO:root:validation overall accuracy 0.788667
+INFO:root:0-shot: 0.068, 1-shot: 0.868, 2-shot: 0.928, 3-shot: 0.936, 4-shot: 0.960, 5-shot: 0.972, 
+INFO:root:episode batch 1120, avg train loss 0.087000
+INFO:root:validation overall accuracy 0.792667
+INFO:root:0-shot: 0.088, 1-shot: 0.868, 2-shot: 0.928, 3-shot: 0.972, 4-shot: 0.940, 5-shot: 0.960, 
+INFO:root:episode batch 1140, avg train loss 0.084628
+INFO:root:validation overall accuracy 0.789333
+INFO:root:0-shot: 0.036, 1-shot: 0.884, 2-shot: 0.932, 3-shot: 0.956, 4-shot: 0.976, 5-shot: 0.952, 
+INFO:root:episode batch 1160, avg train loss 0.085886
+INFO:root:validation overall accuracy 0.793333
+INFO:root:0-shot: 0.064, 1-shot: 0.904, 2-shot: 0.912, 3-shot: 0.952, 4-shot: 0.952, 5-shot: 0.976, 
+INFO:root:episode batch 1180, avg train loss 0.081906
+INFO:root:validation overall accuracy 0.795333
+INFO:root:0-shot: 0.088, 1-shot: 0.868, 2-shot: 0.940, 3-shot: 0.960, 4-shot: 0.956, 5-shot: 0.960, 
+INFO:root:episode batch 1200, avg train loss 0.082132
+INFO:root:validation overall accuracy 0.799333
+INFO:root:0-shot: 0.072, 1-shot: 0.896, 2-shot: 0.944, 3-shot: 0.976, 4-shot: 0.956, 5-shot: 0.952, 
+INFO:root:episode batch 1220, avg train loss 0.080918
+INFO:root:validation overall accuracy 0.806667
+INFO:root:0-shot: 0.080, 1-shot: 0.900, 2-shot: 0.952, 3-shot: 0.972, 4-shot: 0.964, 5-shot: 0.972, 
+INFO:root:episode batch 1240, avg train loss 0.079554
+INFO:root:validation overall accuracy 0.781333
+INFO:root:0-shot: 0.080, 1-shot: 0.864, 2-shot: 0.944, 3-shot: 0.932, 4-shot: 0.932, 5-shot: 0.936, 
+INFO:root:episode batch 1260, avg train loss 0.078528
+INFO:root:validation overall accuracy 0.796000
+INFO:root:0-shot: 0.040, 1-shot: 0.900, 2-shot: 0.964, 3-shot: 0.952, 4-shot: 0.948, 5-shot: 0.972, 
+INFO:root:episode batch 1280, avg train loss 0.079776
+INFO:root:validation overall accuracy 0.791333
+INFO:root:0-shot: 0.036, 1-shot: 0.900, 2-shot: 0.936, 3-shot: 0.948, 4-shot: 0.952, 5-shot: 0.976, 
+INFO:root:episode batch 1300, avg train loss 0.078647
+INFO:root:validation overall accuracy 0.792000
+INFO:root:0-shot: 0.072, 1-shot: 0.888, 2-shot: 0.932, 3-shot: 0.960, 4-shot: 0.940, 5-shot: 0.960, 
+INFO:root:episode batch 1320, avg train loss 0.078664
+INFO:root:validation overall accuracy 0.800667
+INFO:root:0-shot: 0.072, 1-shot: 0.888, 2-shot: 0.964, 3-shot: 0.952, 4-shot: 0.964, 5-shot: 0.964, 
+INFO:root:episode batch 1340, avg train loss 0.076822
+INFO:root:validation overall accuracy 0.800667
+INFO:root:0-shot: 0.060, 1-shot: 0.916, 2-shot: 0.948, 3-shot: 0.964, 4-shot: 0.964, 5-shot: 0.952, 
+INFO:root:episode batch 1360, avg train loss 0.073426
+INFO:root:validation overall accuracy 0.809333
+INFO:root:0-shot: 0.072, 1-shot: 0.928, 2-shot: 0.944, 3-shot: 0.956, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 1380, avg train loss 0.073707
+INFO:root:validation overall accuracy 0.804667
+INFO:root:0-shot: 0.072, 1-shot: 0.916, 2-shot: 0.956, 3-shot: 0.964, 4-shot: 0.960, 5-shot: 0.960, 
+INFO:root:episode batch 1400, avg train loss 0.073090
+INFO:root:validation overall accuracy 0.808000
+INFO:root:0-shot: 0.076, 1-shot: 0.928, 2-shot: 0.948, 3-shot: 0.972, 4-shot: 0.972, 5-shot: 0.952, 
+INFO:root:episode batch 1420, avg train loss 0.072519
+INFO:root:validation overall accuracy 0.798667
+INFO:root:0-shot: 0.068, 1-shot: 0.892, 2-shot: 0.940, 3-shot: 0.956, 4-shot: 0.964, 5-shot: 0.972, 
+INFO:root:episode batch 1440, avg train loss 0.071989
+INFO:root:validation overall accuracy 0.798667
+INFO:root:0-shot: 0.080, 1-shot: 0.904, 2-shot: 0.940, 3-shot: 0.952, 4-shot: 0.956, 5-shot: 0.960, 
+INFO:root:episode batch 1460, avg train loss 0.070827
+INFO:root:validation overall accuracy 0.800000
+INFO:root:0-shot: 0.052, 1-shot: 0.912, 2-shot: 0.952, 3-shot: 0.964, 4-shot: 0.940, 5-shot: 0.980, 
+INFO:root:episode batch 1480, avg train loss 0.070061
+INFO:root:validation overall accuracy 0.800000
+INFO:root:0-shot: 0.072, 1-shot: 0.896, 2-shot: 0.944, 3-shot: 0.968, 4-shot: 0.980, 5-shot: 0.940, 
+INFO:root:episode batch 1500, avg train loss 0.070031
+INFO:root:validation overall accuracy 0.810000
+INFO:root:0-shot: 0.068, 1-shot: 0.940, 2-shot: 0.956, 3-shot: 0.964, 4-shot: 0.960, 5-shot: 0.972, 
+INFO:root:episode batch 1520, avg train loss 0.068043
+INFO:root:validation overall accuracy 0.810000
+INFO:root:0-shot: 0.060, 1-shot: 0.956, 2-shot: 0.952, 3-shot: 0.964, 4-shot: 0.964, 5-shot: 0.964, 
+INFO:root:episode batch 1540, avg train loss 0.067722
+INFO:root:validation overall accuracy 0.816000
+INFO:root:0-shot: 0.084, 1-shot: 0.916, 2-shot: 0.972, 3-shot: 0.980, 4-shot: 0.968, 5-shot: 0.976, 
+INFO:root:episode batch 1560, avg train loss 0.067775
+INFO:root:validation overall accuracy 0.809333
+INFO:root:0-shot: 0.076, 1-shot: 0.920, 2-shot: 0.960, 3-shot: 0.956, 4-shot: 0.976, 5-shot: 0.968, 
+INFO:root:episode batch 1580, avg train loss 0.067811
+INFO:root:validation overall accuracy 0.807333
+INFO:root:0-shot: 0.076, 1-shot: 0.920, 2-shot: 0.944, 3-shot: 0.976, 4-shot: 0.948, 5-shot: 0.980, 
+INFO:root:episode batch 1600, avg train loss 0.065897
+INFO:root:validation overall accuracy 0.816000
+INFO:root:0-shot: 0.080, 1-shot: 0.924, 2-shot: 0.984, 3-shot: 0.952, 4-shot: 0.972, 5-shot: 0.984, 
+INFO:root:episode batch 1620, avg train loss 0.067334
+INFO:root:validation overall accuracy 0.801333
+INFO:root:0-shot: 0.056, 1-shot: 0.912, 2-shot: 0.956, 3-shot: 0.972, 4-shot: 0.960, 5-shot: 0.952, 
+INFO:root:episode batch 1640, avg train loss 0.064973
+INFO:root:validation overall accuracy 0.813333
+INFO:root:0-shot: 0.068, 1-shot: 0.932, 2-shot: 0.960, 3-shot: 0.968, 4-shot: 0.972, 5-shot: 0.980, 
+INFO:root:episode batch 1660, avg train loss 0.065032
+INFO:root:validation overall accuracy 0.814667
+INFO:root:0-shot: 0.072, 1-shot: 0.912, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.972, 5-shot: 0.972, 
+INFO:root:episode batch 1680, avg train loss 0.063550
+INFO:root:validation overall accuracy 0.805333
+INFO:root:0-shot: 0.088, 1-shot: 0.888, 2-shot: 0.952, 3-shot: 0.964, 4-shot: 0.972, 5-shot: 0.968, 
+INFO:root:episode batch 1700, avg train loss 0.061524
+INFO:root:validation overall accuracy 0.813333
+INFO:root:0-shot: 0.068, 1-shot: 0.924, 2-shot: 0.952, 3-shot: 0.988, 4-shot: 0.968, 5-shot: 0.980, 
+INFO:root:episode batch 1720, avg train loss 0.060824
+INFO:root:validation overall accuracy 0.816000
+INFO:root:0-shot: 0.060, 1-shot: 0.928, 2-shot: 0.972, 3-shot: 0.980, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 1740, avg train loss 0.063983
+INFO:root:validation overall accuracy 0.815333
+INFO:root:0-shot: 0.084, 1-shot: 0.936, 2-shot: 0.956, 3-shot: 0.968, 4-shot: 0.968, 5-shot: 0.980, 
+INFO:root:episode batch 1760, avg train loss 0.062792
+INFO:root:validation overall accuracy 0.804000
+INFO:root:0-shot: 0.092, 1-shot: 0.880, 2-shot: 0.948, 3-shot: 0.956, 4-shot: 0.984, 5-shot: 0.964, 
+INFO:root:episode batch 1780, avg train loss 0.061775
+INFO:root:validation overall accuracy 0.814667
+INFO:root:0-shot: 0.088, 1-shot: 0.920, 2-shot: 0.960, 3-shot: 0.968, 4-shot: 0.980, 5-shot: 0.972, 
+INFO:root:episode batch 1800, avg train loss 0.062636
+INFO:root:validation overall accuracy 0.799333
+INFO:root:0-shot: 0.064, 1-shot: 0.904, 2-shot: 0.964, 3-shot: 0.952, 4-shot: 0.956, 5-shot: 0.956, 
+INFO:root:episode batch 1820, avg train loss 0.062923
+INFO:root:validation overall accuracy 0.811333
+INFO:root:0-shot: 0.092, 1-shot: 0.932, 2-shot: 0.948, 3-shot: 0.956, 4-shot: 0.976, 5-shot: 0.964, 
+INFO:root:episode batch 1840, avg train loss 0.057675
+INFO:root:validation overall accuracy 0.802000
+INFO:root:0-shot: 0.072, 1-shot: 0.908, 2-shot: 0.940, 3-shot: 0.940, 4-shot: 0.972, 5-shot: 0.980, 
+INFO:root:episode batch 1860, avg train loss 0.060684
+INFO:root:validation overall accuracy 0.807333
+INFO:root:0-shot: 0.048, 1-shot: 0.936, 2-shot: 0.968, 3-shot: 0.964, 4-shot: 0.972, 5-shot: 0.956, 
+INFO:root:episode batch 1880, avg train loss 0.058265
+INFO:root:validation overall accuracy 0.810667
+INFO:root:0-shot: 0.056, 1-shot: 0.944, 2-shot: 0.956, 3-shot: 0.968, 4-shot: 0.960, 5-shot: 0.980, 
+INFO:root:episode batch 1900, avg train loss 0.058495
+INFO:root:validation overall accuracy 0.815333
+INFO:root:0-shot: 0.080, 1-shot: 0.928, 2-shot: 0.968, 3-shot: 0.960, 4-shot: 0.984, 5-shot: 0.972, 
+INFO:root:episode batch 1920, avg train loss 0.059040
+INFO:root:validation overall accuracy 0.818000
+INFO:root:0-shot: 0.080, 1-shot: 0.924, 2-shot: 0.936, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 1940, avg train loss 0.055382
+INFO:root:validation overall accuracy 0.820000
+INFO:root:0-shot: 0.096, 1-shot: 0.948, 2-shot: 0.960, 3-shot: 0.968, 4-shot: 0.972, 5-shot: 0.976, 
+INFO:root:episode batch 1960, avg train loss 0.056172
+INFO:root:validation overall accuracy 0.818000
+INFO:root:0-shot: 0.092, 1-shot: 0.928, 2-shot: 0.964, 3-shot: 0.976, 4-shot: 0.964, 5-shot: 0.984, 
+INFO:root:episode batch 1980, avg train loss 0.055728
+INFO:root:validation overall accuracy 0.820000
+INFO:root:0-shot: 0.080, 1-shot: 0.940, 2-shot: 0.968, 3-shot: 0.980, 4-shot: 0.964, 5-shot: 0.988, 
+INFO:root:episode batch 2000, avg train loss 0.056059
+INFO:root:validation overall accuracy 0.810000
+INFO:root:0-shot: 0.064, 1-shot: 0.916, 2-shot: 0.948, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 2020, avg train loss 0.055468
+INFO:root:validation overall accuracy 0.817333
+INFO:root:0-shot: 0.044, 1-shot: 0.932, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.968, 5-shot: 0.992, 
+INFO:root:episode batch 2040, avg train loss 0.051875
+INFO:root:validation overall accuracy 0.808667
+INFO:root:0-shot: 0.048, 1-shot: 0.916, 2-shot: 0.944, 3-shot: 0.976, 4-shot: 0.976, 5-shot: 0.992, 
+INFO:root:episode batch 2060, avg train loss 0.055072
+INFO:root:validation overall accuracy 0.809333
+INFO:root:0-shot: 0.068, 1-shot: 0.900, 2-shot: 0.964, 3-shot: 0.968, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 2080, avg train loss 0.054724
+INFO:root:validation overall accuracy 0.819333
+INFO:root:0-shot: 0.080, 1-shot: 0.928, 2-shot: 0.960, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 2100, avg train loss 0.053961
+INFO:root:validation overall accuracy 0.815333
+INFO:root:0-shot: 0.088, 1-shot: 0.944, 2-shot: 0.960, 3-shot: 0.968, 4-shot: 0.952, 5-shot: 0.980, 
+INFO:root:episode batch 2120, avg train loss 0.054045
+INFO:root:validation overall accuracy 0.813333
+INFO:root:0-shot: 0.068, 1-shot: 0.912, 2-shot: 0.956, 3-shot: 0.960, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 2140, avg train loss 0.053090
+INFO:root:validation overall accuracy 0.824667
+INFO:root:0-shot: 0.072, 1-shot: 0.944, 2-shot: 0.980, 3-shot: 0.976, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 2160, avg train loss 0.054354
+INFO:root:validation overall accuracy 0.808667
+INFO:root:0-shot: 0.056, 1-shot: 0.924, 2-shot: 0.964, 3-shot: 0.984, 4-shot: 0.960, 5-shot: 0.964, 
+INFO:root:episode batch 2180, avg train loss 0.053161
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.088, 1-shot: 0.944, 2-shot: 0.984, 3-shot: 0.972, 4-shot: 0.980, 5-shot: 0.984, 
+INFO:root:episode batch 2200, avg train loss 0.050537
+INFO:root:validation overall accuracy 0.815333
+INFO:root:0-shot: 0.060, 1-shot: 0.948, 2-shot: 0.968, 3-shot: 0.968, 4-shot: 0.968, 5-shot: 0.980, 
+INFO:root:episode batch 2220, avg train loss 0.050391
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.080, 1-shot: 0.948, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.980, 5-shot: 0.984, 
+INFO:root:episode batch 2240, avg train loss 0.050666
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.056, 1-shot: 0.948, 2-shot: 0.988, 3-shot: 0.968, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 2260, avg train loss 0.050681
+INFO:root:validation overall accuracy 0.819333
+INFO:root:0-shot: 0.068, 1-shot: 0.932, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 2280, avg train loss 0.050960
+INFO:root:validation overall accuracy 0.820667
+INFO:root:0-shot: 0.064, 1-shot: 0.936, 2-shot: 0.988, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.980, 
+INFO:root:episode batch 2300, avg train loss 0.049569
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.080, 1-shot: 0.956, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 2320, avg train loss 0.051201
+INFO:root:validation overall accuracy 0.820000
+INFO:root:0-shot: 0.064, 1-shot: 0.932, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.980, 
+INFO:root:episode batch 2340, avg train loss 0.050469
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.084, 1-shot: 0.956, 2-shot: 0.984, 3-shot: 0.960, 4-shot: 0.980, 5-shot: 0.972, 
+INFO:root:episode batch 2360, avg train loss 0.049579
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.096, 1-shot: 0.940, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 2380, avg train loss 0.049674
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.100, 1-shot: 0.968, 2-shot: 0.972, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.980, 
+INFO:root:episode batch 2400, avg train loss 0.048980
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.084, 1-shot: 0.948, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 2420, avg train loss 0.049905
+INFO:root:validation overall accuracy 0.814000
+INFO:root:0-shot: 0.044, 1-shot: 0.936, 2-shot: 0.980, 3-shot: 0.972, 4-shot: 0.960, 5-shot: 0.992, 
+INFO:root:episode batch 2440, avg train loss 0.048607
+INFO:root:validation overall accuracy 0.818667
+INFO:root:0-shot: 0.052, 1-shot: 0.940, 2-shot: 0.964, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 2460, avg train loss 0.048493
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.080, 1-shot: 0.960, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.980, 
+INFO:root:episode batch 2480, avg train loss 0.047849
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.984, 3-shot: 0.972, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 2500, avg train loss 0.050310
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.092, 1-shot: 0.948, 2-shot: 0.976, 3-shot: 0.960, 4-shot: 0.972, 5-shot: 0.988, 
+INFO:root:episode batch 2520, avg train loss 0.048091
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.080, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 2540, avg train loss 0.048587
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.064, 1-shot: 0.936, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 2560, avg train loss 0.048584
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.064, 1-shot: 0.956, 2-shot: 0.972, 3-shot: 0.984, 4-shot: 1.000, 5-shot: 0.984, 
+INFO:root:episode batch 2580, avg train loss 0.045235
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.080, 1-shot: 0.936, 2-shot: 0.972, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 2600, avg train loss 0.045102
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.060, 1-shot: 0.960, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.980, 5-shot: 0.988, 
+INFO:root:episode batch 2620, avg train loss 0.045982
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.080, 1-shot: 0.936, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.980, 
+INFO:root:episode batch 2640, avg train loss 0.045481
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.076, 1-shot: 0.952, 2-shot: 0.980, 3-shot: 0.976, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 2660, avg train loss 0.046849
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.980, 
+INFO:root:episode batch 2680, avg train loss 0.044804
+INFO:root:validation overall accuracy 0.817333
+INFO:root:0-shot: 0.056, 1-shot: 0.940, 2-shot: 0.968, 3-shot: 0.984, 4-shot: 0.984, 5-shot: 0.972, 
+INFO:root:episode batch 2700, avg train loss 0.045123
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.084, 1-shot: 0.956, 2-shot: 0.992, 3-shot: 0.976, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 2720, avg train loss 0.043937
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.976, 4-shot: 0.996, 5-shot: 0.980, 
+INFO:root:episode batch 2740, avg train loss 0.045091
+INFO:root:validation overall accuracy 0.816000
+INFO:root:0-shot: 0.048, 1-shot: 0.932, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.976, 5-shot: 0.980, 
+INFO:root:episode batch 2760, avg train loss 0.043128
+INFO:root:validation overall accuracy 0.820000
+INFO:root:0-shot: 0.088, 1-shot: 0.952, 2-shot: 0.956, 3-shot: 0.976, 4-shot: 0.976, 5-shot: 0.972, 
+INFO:root:episode batch 2780, avg train loss 0.042953
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.956, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 2800, avg train loss 0.043020
+INFO:root:validation overall accuracy 0.824667
+INFO:root:0-shot: 0.056, 1-shot: 0.960, 2-shot: 0.968, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 2820, avg train loss 0.043112
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.064, 1-shot: 0.956, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 2840, avg train loss 0.045758
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.084, 1-shot: 0.952, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 2860, avg train loss 0.041648
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.064, 1-shot: 0.944, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 2880, avg train loss 0.042998
+INFO:root:validation overall accuracy 0.824000
+INFO:root:0-shot: 0.056, 1-shot: 0.944, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 2900, avg train loss 0.043935
+INFO:root:validation overall accuracy 0.824667
+INFO:root:0-shot: 0.072, 1-shot: 0.956, 2-shot: 0.968, 3-shot: 0.976, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 2920, avg train loss 0.043564
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.076, 1-shot: 0.940, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 2940, avg train loss 0.039955
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.080, 1-shot: 0.964, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.984, 5-shot: 0.980, 
+INFO:root:episode batch 2960, avg train loss 0.039343
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.100, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.988, 
+INFO:root:episode batch 2980, avg train loss 0.039102
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 3000, avg train loss 0.040527
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.076, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.972, 5-shot: 0.968, 
+INFO:root:episode batch 3020, avg train loss 0.039874
+INFO:root:validation overall accuracy 0.821333
+INFO:root:0-shot: 0.060, 1-shot: 0.936, 2-shot: 0.972, 3-shot: 0.984, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 3040, avg train loss 0.039992
+INFO:root:validation overall accuracy 0.816000
+INFO:root:0-shot: 0.056, 1-shot: 0.940, 2-shot: 0.972, 3-shot: 0.984, 4-shot: 0.964, 5-shot: 0.980, 
+INFO:root:episode batch 3060, avg train loss 0.041649
+INFO:root:validation overall accuracy 0.823333
+INFO:root:0-shot: 0.072, 1-shot: 0.936, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 3080, avg train loss 0.036629
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.052, 1-shot: 0.956, 2-shot: 0.960, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 3100, avg train loss 0.043433
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.072, 1-shot: 0.980, 2-shot: 0.964, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.984, 
+INFO:root:episode batch 3120, avg train loss 0.042636
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.972, 5-shot: 0.988, 
+INFO:root:episode batch 3140, avg train loss 0.040895
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.052, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 3160, avg train loss 0.037408
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.068, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.976, 5-shot: 0.972, 
+INFO:root:episode batch 3180, avg train loss 0.038759
+INFO:root:validation overall accuracy 0.818000
+INFO:root:0-shot: 0.052, 1-shot: 0.948, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.964, 
+INFO:root:episode batch 3200, avg train loss 0.040490
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.060, 1-shot: 0.952, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 3220, avg train loss 0.041895
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.088, 1-shot: 0.936, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 3240, avg train loss 0.038266
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.056, 1-shot: 0.956, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 3260, avg train loss 0.037688
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.084, 1-shot: 0.940, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.972, 
+INFO:root:episode batch 3280, avg train loss 0.037368
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 3300, avg train loss 0.039051
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.092, 1-shot: 0.972, 2-shot: 0.952, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 3320, avg train loss 0.040538
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.096, 1-shot: 0.960, 2-shot: 0.972, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.972, 
+INFO:root:episode batch 3340, avg train loss 0.039690
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.076, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.980, 
+INFO:root:episode batch 3360, avg train loss 0.039012
+INFO:root:validation overall accuracy 0.819333
+INFO:root:0-shot: 0.072, 1-shot: 0.936, 2-shot: 0.968, 3-shot: 0.988, 4-shot: 0.964, 5-shot: 0.988, 
+INFO:root:episode batch 3380, avg train loss 0.038246
+INFO:root:validation overall accuracy 0.819333
+INFO:root:0-shot: 0.060, 1-shot: 0.920, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.976, 5-shot: 0.996, 
+INFO:root:episode batch 3400, avg train loss 0.038749
+INFO:root:validation overall accuracy 0.818667
+INFO:root:0-shot: 0.052, 1-shot: 0.956, 2-shot: 0.976, 3-shot: 0.968, 4-shot: 0.972, 5-shot: 0.988, 
+INFO:root:episode batch 3420, avg train loss 0.037004
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.072, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.980, 
+INFO:root:episode batch 3440, avg train loss 0.038136
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.080, 1-shot: 0.956, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 3460, avg train loss 0.037642
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.088, 1-shot: 0.976, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 3480, avg train loss 0.036253
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.064, 1-shot: 0.948, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 3500, avg train loss 0.036939
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.064, 1-shot: 0.980, 2-shot: 0.972, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 3520, avg train loss 0.037018
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.064, 1-shot: 0.940, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.976, 
+INFO:root:episode batch 3540, avg train loss 0.035304
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.088, 1-shot: 0.960, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 3560, avg train loss 0.036863
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.060, 1-shot: 0.968, 2-shot: 0.960, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 3580, avg train loss 0.035526
+INFO:root:validation overall accuracy 0.822000
+INFO:root:0-shot: 0.080, 1-shot: 0.940, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.968, 5-shot: 0.988, 
+INFO:root:episode batch 3600, avg train loss 0.035550
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 3620, avg train loss 0.034915
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.048, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 3640, avg train loss 0.035502
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.064, 1-shot: 0.948, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 3660, avg train loss 0.034788
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.976, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 3680, avg train loss 0.035688
+INFO:root:validation overall accuracy 0.822000
+INFO:root:0-shot: 0.084, 1-shot: 0.952, 2-shot: 0.972, 3-shot: 0.972, 4-shot: 0.976, 5-shot: 0.976, 
+INFO:root:episode batch 3700, avg train loss 0.036166
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 3720, avg train loss 0.034826
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.056, 1-shot: 0.972, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.976, 5-shot: 0.988, 
+INFO:root:episode batch 3740, avg train loss 0.035017
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.072, 1-shot: 0.944, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 3760, avg train loss 0.033111
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.068, 1-shot: 0.948, 2-shot: 0.992, 3-shot: 0.968, 4-shot: 0.976, 5-shot: 0.984, 
+INFO:root:episode batch 3780, avg train loss 0.034106
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.100, 1-shot: 0.960, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.976, 5-shot: 0.996, 
+INFO:root:episode batch 3800, avg train loss 0.035413
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.080, 1-shot: 0.956, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.988, 
+INFO:root:episode batch 3820, avg train loss 0.035567
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.076, 1-shot: 0.964, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 3840, avg train loss 0.034089
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 3860, avg train loss 0.033671
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 3880, avg train loss 0.034158
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.088, 1-shot: 0.964, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 3900, avg train loss 0.034327
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.056, 1-shot: 0.952, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 3920, avg train loss 0.032750
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.064, 1-shot: 0.968, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.976, 
+INFO:root:episode batch 3940, avg train loss 0.033637
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 3960, avg train loss 0.033880
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.976, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 3980, avg train loss 0.031418
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.056, 1-shot: 0.964, 2-shot: 0.972, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 4000, avg train loss 0.032542
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.064, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.980, 5-shot: 0.972, 
+INFO:root:episode batch 4020, avg train loss 0.033680
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.056, 1-shot: 0.952, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 4040, avg train loss 0.030103
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.072, 1-shot: 0.944, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 4060, avg train loss 0.031455
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.084, 1-shot: 0.968, 2-shot: 1.000, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 4080, avg train loss 0.030417
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.060, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 4100, avg train loss 0.031330
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.064, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 4120, avg train loss 0.029552
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.080, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.976, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 4140, avg train loss 0.032792
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.092, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.976, 
+INFO:root:episode batch 4160, avg train loss 0.030941
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.056, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.996, 
+INFO:root:episode batch 4180, avg train loss 0.031464
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.076, 1-shot: 0.976, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4200, avg train loss 0.032854
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.076, 1-shot: 0.964, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.972, 5-shot: 0.976, 
+INFO:root:episode batch 4220, avg train loss 0.029645
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.080, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 4240, avg train loss 0.030782
+INFO:root:validation overall accuracy 0.824000
+INFO:root:0-shot: 0.064, 1-shot: 0.952, 2-shot: 0.964, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4260, avg train loss 0.032165
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.072, 1-shot: 0.940, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 4280, avg train loss 0.031107
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.088, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 4300, avg train loss 0.029651
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 4320, avg train loss 0.030044
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.076, 1-shot: 0.952, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 4340, avg train loss 0.031412
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.080, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 4360, avg train loss 0.030178
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.092, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 4380, avg train loss 0.029410
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.088, 1-shot: 0.964, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.980, 
+INFO:root:episode batch 4400, avg train loss 0.029292
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.052, 1-shot: 0.964, 2-shot: 1.000, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 4420, avg train loss 0.026965
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.072, 1-shot: 0.952, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 4440, avg train loss 0.029662
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.068, 1-shot: 0.956, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 4460, avg train loss 0.032104
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.060, 1-shot: 0.952, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 4480, avg train loss 0.029918
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 4500, avg train loss 0.028703
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.084, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 4520, avg train loss 0.029429
+INFO:root:validation overall accuracy 0.823333
+INFO:root:0-shot: 0.068, 1-shot: 0.952, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.976, 5-shot: 0.984, 
+INFO:root:episode batch 4540, avg train loss 0.030083
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.072, 1-shot: 0.988, 2-shot: 0.980, 3-shot: 0.972, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 4560, avg train loss 0.029706
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 4580, avg train loss 0.027668
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.068, 1-shot: 0.944, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4600, avg train loss 0.031679
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.076, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.976, 
+INFO:root:episode batch 4620, avg train loss 0.029538
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.064, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4640, avg train loss 0.030177
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.080, 1-shot: 0.964, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4660, avg train loss 0.027729
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.064, 1-shot: 0.952, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 0.976, 
+INFO:root:episode batch 4680, avg train loss 0.028543
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.092, 1-shot: 0.988, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 4700, avg train loss 0.026461
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.072, 1-shot: 0.984, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 4720, avg train loss 0.029155
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 4740, avg train loss 0.027705
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 1.000, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 4760, avg train loss 0.026814
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.072, 1-shot: 0.956, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4780, avg train loss 0.027496
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.080, 1-shot: 0.956, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 4800, avg train loss 0.027661
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.068, 1-shot: 0.936, 2-shot: 0.988, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.988, 
+INFO:root:episode batch 4820, avg train loss 0.026698
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.092, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 1.000, 
+INFO:root:episode batch 4840, avg train loss 0.026435
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.080, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 4860, avg train loss 0.029698
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 4880, avg train loss 0.026706
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.088, 1-shot: 0.976, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 4900, avg train loss 0.029458
+INFO:root:validation overall accuracy 0.824000
+INFO:root:0-shot: 0.060, 1-shot: 0.956, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.980, 5-shot: 0.984, 
+INFO:root:episode batch 4920, avg train loss 0.026234
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.084, 1-shot: 0.956, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 4940, avg train loss 0.029556
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.056, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 4960, avg train loss 0.026149
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.064, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 4980, avg train loss 0.026317
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 5000, avg train loss 0.026075
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.980, 
+INFO:root:episode batch 5020, avg train loss 0.026756
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.056, 1-shot: 0.944, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 5040, avg train loss 0.028430
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.080, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 5060, avg train loss 0.027346
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.088, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5080, avg train loss 0.025980
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.092, 1-shot: 0.924, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.980, 
+INFO:root:episode batch 5100, avg train loss 0.025265
+INFO:root:validation overall accuracy 0.824667
+INFO:root:0-shot: 0.052, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.976, 4-shot: 0.980, 5-shot: 0.980, 
+INFO:root:episode batch 5120, avg train loss 0.028133
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.076, 1-shot: 0.984, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 5140, avg train loss 0.026552
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.068, 1-shot: 0.956, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 5160, avg train loss 0.025045
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.996, 5-shot: 0.976, 
+INFO:root:episode batch 5180, avg train loss 0.026271
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.088, 1-shot: 0.948, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5200, avg train loss 0.025459
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.060, 1-shot: 0.980, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.980, 
+INFO:root:episode batch 5220, avg train loss 0.025719
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.080, 1-shot: 0.944, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 5240, avg train loss 0.024004
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.064, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 5260, avg train loss 0.025521
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.076, 1-shot: 0.956, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 5280, avg train loss 0.025280
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.068, 1-shot: 0.968, 2-shot: 0.968, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 5300, avg train loss 0.024005
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.052, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 5320, avg train loss 0.022265
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.084, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 5340, avg train loss 0.024075
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.060, 1-shot: 0.964, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5360, avg train loss 0.024710
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.088, 1-shot: 0.964, 2-shot: 1.000, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 5380, avg train loss 0.025759
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.980, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 5400, avg train loss 0.026846
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.076, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5420, avg train loss 0.027319
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.068, 1-shot: 0.968, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5440, avg train loss 0.024969
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.076, 1-shot: 0.956, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5460, avg train loss 0.026694
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.064, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.976, 5-shot: 0.988, 
+INFO:root:episode batch 5480, avg train loss 0.024281
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.088, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 5500, avg train loss 0.026825
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 5520, avg train loss 0.023819
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.064, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 5540, avg train loss 0.023063
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.080, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 5560, avg train loss 0.025738
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.068, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 5580, avg train loss 0.022932
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.084, 1-shot: 0.984, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 5600, avg train loss 0.023372
+INFO:root:validation overall accuracy 0.824667
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.964, 4-shot: 0.972, 5-shot: 0.980, 
+INFO:root:episode batch 5620, avg train loss 0.024581
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 5640, avg train loss 0.024760
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.052, 1-shot: 0.968, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.988, 
+INFO:root:episode batch 5660, avg train loss 0.023771
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.064, 1-shot: 0.976, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5680, avg train loss 0.024883
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 5700, avg train loss 0.025432
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.088, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5720, avg train loss 0.023603
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.064, 1-shot: 0.984, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 5740, avg train loss 0.022536
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.064, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 5760, avg train loss 0.022809
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 5780, avg train loss 0.022659
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.076, 1-shot: 0.996, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 5800, avg train loss 0.022477
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.044, 1-shot: 0.968, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 5820, avg train loss 0.021946
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.068, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 5840, avg train loss 0.022283
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.076, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5860, avg train loss 0.021726
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.084, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 5880, avg train loss 0.021602
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.088, 1-shot: 0.988, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 5900, avg train loss 0.022355
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.064, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5920, avg train loss 0.023483
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.084, 1-shot: 0.956, 2-shot: 0.980, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 5940, avg train loss 0.021115
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.048, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 5960, avg train loss 0.022627
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.088, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 5980, avg train loss 0.021387
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.084, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 6000, avg train loss 0.020740
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.056, 1-shot: 0.960, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 6020, avg train loss 0.022278
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.956, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 6040, avg train loss 0.021771
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.088, 1-shot: 0.980, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 6060, avg train loss 0.020576
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.080, 1-shot: 0.952, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.980, 5-shot: 0.988, 
+INFO:root:episode batch 6080, avg train loss 0.022123
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.076, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 6100, avg train loss 0.018944
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 6120, avg train loss 0.023235
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.088, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.976, 5-shot: 0.988, 
+INFO:root:episode batch 6140, avg train loss 0.025333
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.068, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 6160, avg train loss 0.020593
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.060, 1-shot: 0.964, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 6180, avg train loss 0.021105
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 6200, avg train loss 0.022890
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.056, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 6220, avg train loss 0.022134
+INFO:root:validation overall accuracy 0.823333
+INFO:root:0-shot: 0.048, 1-shot: 0.952, 2-shot: 0.972, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 6240, avg train loss 0.021482
+INFO:root:validation overall accuracy 0.825333
+INFO:root:0-shot: 0.060, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.976, 4-shot: 0.972, 5-shot: 0.988, 
+INFO:root:episode batch 6260, avg train loss 0.021439
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.080, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 6280, avg train loss 0.022045
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.088, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.984, 
+INFO:root:episode batch 6300, avg train loss 0.023879
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.032, 1-shot: 0.984, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 6320, avg train loss 0.022914
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.068, 1-shot: 0.944, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 6340, avg train loss 0.019852
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.056, 1-shot: 0.944, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 6360, avg train loss 0.021475
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.108, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 6380, avg train loss 0.022472
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.048, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 6400, avg train loss 0.021082
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.104, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.980, 4-shot: 0.980, 5-shot: 0.988, 
+INFO:root:episode batch 6420, avg train loss 0.020694
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.056, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 6440, avg train loss 0.020279
+INFO:root:validation overall accuracy 0.828000
+INFO:root:0-shot: 0.064, 1-shot: 0.956, 2-shot: 0.992, 3-shot: 0.976, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 6460, avg train loss 0.020567
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.956, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 6480, avg train loss 0.021272
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.072, 1-shot: 0.980, 2-shot: 1.000, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 6500, avg train loss 0.022714
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 6520, avg train loss 0.019883
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.060, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 6540, avg train loss 0.020311
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.096, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 6560, avg train loss 0.017821
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 6580, avg train loss 0.019486
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.092, 1-shot: 0.956, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 6600, avg train loss 0.023305
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 6620, avg train loss 0.022244
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.080, 1-shot: 0.952, 2-shot: 0.968, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.980, 
+INFO:root:episode batch 6640, avg train loss 0.018211
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.052, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 6660, avg train loss 0.020072
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.084, 1-shot: 0.972, 2-shot: 1.000, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 6680, avg train loss 0.018182
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 6700, avg train loss 0.019048
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.080, 1-shot: 0.976, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.980, 
+INFO:root:episode batch 6720, avg train loss 0.020392
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.092, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 6740, avg train loss 0.019526
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.976, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 6760, avg train loss 0.019797
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.992, 3-shot: 0.980, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 6780, avg train loss 0.018052
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.064, 1-shot: 0.956, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 6800, avg train loss 0.018834
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 6820, avg train loss 0.018778
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 6840, avg train loss 0.017891
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.076, 1-shot: 0.988, 2-shot: 0.972, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 1.000, 
+INFO:root:episode batch 6860, avg train loss 0.022359
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 6880, avg train loss 0.018579
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 6900, avg train loss 0.018481
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 1.000, 
+INFO:root:episode batch 6920, avg train loss 0.017226
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.072, 1-shot: 0.992, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 6940, avg train loss 0.019589
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.108, 1-shot: 0.984, 2-shot: 0.980, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 6960, avg train loss 0.018461
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.096, 1-shot: 0.964, 2-shot: 1.000, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 6980, avg train loss 0.018303
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 7000, avg train loss 0.018188
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.068, 1-shot: 0.984, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 7020, avg train loss 0.018507
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.060, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 7040, avg train loss 0.022446
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 7060, avg train loss 0.020884
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.084, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 7080, avg train loss 0.021347
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 7100, avg train loss 0.018272
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.084, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 7120, avg train loss 0.016067
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.060, 1-shot: 0.988, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 7140, avg train loss 0.019306
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.080, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 7160, avg train loss 0.020290
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 7180, avg train loss 0.017820
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.072, 1-shot: 0.976, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 7200, avg train loss 0.019597
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 7220, avg train loss 0.019790
+INFO:root:validation overall accuracy 0.821333
+INFO:root:0-shot: 0.048, 1-shot: 0.956, 2-shot: 0.968, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.980, 
+INFO:root:episode batch 7240, avg train loss 0.017271
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 7260, avg train loss 0.019619
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.092, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 7280, avg train loss 0.018146
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.100, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 7300, avg train loss 0.018854
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 7320, avg train loss 0.017750
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 7340, avg train loss 0.019340
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.084, 1-shot: 0.952, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 7360, avg train loss 0.017785
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 7380, avg train loss 0.015408
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 7400, avg train loss 0.019265
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 7420, avg train loss 0.018791
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.096, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 7440, avg train loss 0.017016
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 7460, avg train loss 0.017164
+INFO:root:validation overall accuracy 0.842667
+INFO:root:0-shot: 0.100, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 7480, avg train loss 0.018615
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 7500, avg train loss 0.017222
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 7520, avg train loss 0.016947
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 7540, avg train loss 0.017023
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.980, 3-shot: 0.972, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 7560, avg train loss 0.016198
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 7580, avg train loss 0.017228
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.064, 1-shot: 0.988, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 7600, avg train loss 0.016042
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.064, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 7620, avg train loss 0.017842
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.972, 3-shot: 0.980, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 7640, avg train loss 0.017476
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 7660, avg train loss 0.018011
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.064, 1-shot: 0.984, 2-shot: 0.996, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 7680, avg train loss 0.014997
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.076, 1-shot: 0.972, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 1.000, 5-shot: 0.972, 
+INFO:root:episode batch 7700, avg train loss 0.020437
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.088, 1-shot: 0.956, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.972, 
+INFO:root:episode batch 7720, avg train loss 0.016435
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.996, 3-shot: 0.976, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 7740, avg train loss 0.017639
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.064, 1-shot: 0.968, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 7760, avg train loss 0.015213
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 7780, avg train loss 0.014041
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.964, 2-shot: 0.996, 3-shot: 1.000, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 7800, avg train loss 0.015598
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.096, 1-shot: 0.968, 2-shot: 0.996, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 7820, avg train loss 0.014850
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.096, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 7840, avg train loss 0.015586
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.976, 
+INFO:root:episode batch 7860, avg train loss 0.016945
+INFO:root:validation overall accuracy 0.845333
+INFO:root:0-shot: 0.100, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 7880, avg train loss 0.016340
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.080, 1-shot: 0.980, 2-shot: 1.000, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 7900, avg train loss 0.017164
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.088, 1-shot: 0.964, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 7920, avg train loss 0.017393
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.048, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.980, 
+INFO:root:episode batch 7940, avg train loss 0.012176
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 7960, avg train loss 0.014861
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.060, 1-shot: 0.964, 2-shot: 1.000, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.976, 
+INFO:root:episode batch 7980, avg train loss 0.016747
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.056, 1-shot: 0.992, 2-shot: 0.992, 3-shot: 0.980, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 8000, avg train loss 0.015973
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.972, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 8020, avg train loss 0.016807
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 8040, avg train loss 0.014288
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.076, 1-shot: 0.952, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 8060, avg train loss 0.017429
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.064, 1-shot: 0.964, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 8080, avg train loss 0.014965
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 8100, avg train loss 0.013772
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 8120, avg train loss 0.015124
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.080, 1-shot: 0.980, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 8140, avg train loss 0.016415
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.088, 1-shot: 0.956, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 8160, avg train loss 0.015658
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.060, 1-shot: 0.984, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 8180, avg train loss 0.014429
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.088, 1-shot: 0.980, 2-shot: 1.000, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.988, 
+INFO:root:episode batch 8200, avg train loss 0.013933
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 8220, avg train loss 0.014665
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.064, 1-shot: 0.980, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 8240, avg train loss 0.018065
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 8260, avg train loss 0.014531
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.060, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 8280, avg train loss 0.013868
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 8300, avg train loss 0.014980
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.084, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 8320, avg train loss 0.016963
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.972, 
+INFO:root:episode batch 8340, avg train loss 0.015183
+INFO:root:validation overall accuracy 0.842000
+INFO:root:0-shot: 0.092, 1-shot: 0.992, 2-shot: 1.000, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 8360, avg train loss 0.014527
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.068, 1-shot: 0.960, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 8380, avg train loss 0.013416
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.084, 1-shot: 0.984, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 8400, avg train loss 0.013736
+INFO:root:validation overall accuracy 0.829333
+INFO:root:0-shot: 0.068, 1-shot: 0.972, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.984, 5-shot: 0.976, 
+INFO:root:episode batch 8420, avg train loss 0.014898
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.060, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 8440, avg train loss 0.014105
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.084, 1-shot: 0.976, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 8460, avg train loss 0.013120
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.080, 1-shot: 0.988, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 8480, avg train loss 0.014930
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.988, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.984, 5-shot: 0.976, 
+INFO:root:episode batch 8500, avg train loss 0.014379
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.068, 1-shot: 0.988, 2-shot: 0.980, 3-shot: 0.980, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 8520, avg train loss 0.013720
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.084, 1-shot: 0.984, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.984, 
+INFO:root:episode batch 8540, avg train loss 0.015271
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.076, 1-shot: 0.960, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 8560, avg train loss 0.012955
+INFO:root:validation overall accuracy 0.826000
+INFO:root:0-shot: 0.064, 1-shot: 0.960, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.984, 
+INFO:root:episode batch 8580, avg train loss 0.015145
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 8600, avg train loss 0.013220
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.048, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 8620, avg train loss 0.012873
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 8640, avg train loss 0.016276
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.084, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 8660, avg train loss 0.012628
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.056, 1-shot: 0.952, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 8680, avg train loss 0.013269
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.076, 1-shot: 0.984, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.984, 
+INFO:root:episode batch 8700, avg train loss 0.015900
+INFO:root:validation overall accuracy 0.828667
+INFO:root:0-shot: 0.080, 1-shot: 0.964, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.980, 5-shot: 0.984, 
+INFO:root:episode batch 8720, avg train loss 0.013029
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.080, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.992, 
+INFO:root:episode batch 8740, avg train loss 0.013712
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.080, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.996, 
+INFO:root:episode batch 8760, avg train loss 0.014566
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.068, 1-shot: 0.948, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 0.980, 
+INFO:root:episode batch 8780, avg train loss 0.014316
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.072, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 8800, avg train loss 0.014930
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.056, 1-shot: 0.980, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 8820, avg train loss 0.014699
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.064, 1-shot: 0.980, 2-shot: 1.000, 3-shot: 1.000, 4-shot: 1.000, 5-shot: 0.984, 
+INFO:root:episode batch 8840, avg train loss 0.014931
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.084, 1-shot: 0.964, 2-shot: 0.996, 3-shot: 0.984, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 8860, avg train loss 0.016464
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 8880, avg train loss 0.013967
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.092, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 1.000, 
+INFO:root:episode batch 8900, avg train loss 0.014341
+INFO:root:validation overall accuracy 0.827333
+INFO:root:0-shot: 0.056, 1-shot: 0.948, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 8920, avg train loss 0.011829
+INFO:root:validation overall accuracy 0.830000
+INFO:root:0-shot: 0.072, 1-shot: 0.960, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.980, 
+INFO:root:episode batch 8940, avg train loss 0.014417
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.084, 1-shot: 0.980, 2-shot: 0.980, 3-shot: 0.992, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 8960, avg train loss 0.012217
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.100, 1-shot: 0.968, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 8980, avg train loss 0.012862
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.072, 1-shot: 0.980, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 9000, avg train loss 0.014200
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9020, avg train loss 0.012236
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.084, 1-shot: 0.988, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 9040, avg train loss 0.013856
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.076, 1-shot: 0.984, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 9060, avg train loss 0.014622
+INFO:root:validation overall accuracy 0.826667
+INFO:root:0-shot: 0.032, 1-shot: 0.984, 2-shot: 0.984, 3-shot: 0.984, 4-shot: 0.980, 5-shot: 0.996, 
+INFO:root:episode batch 9080, avg train loss 0.011807
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.072, 1-shot: 0.992, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 9100, avg train loss 0.013076
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.100, 1-shot: 0.964, 2-shot: 0.992, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 9120, avg train loss 0.013764
+INFO:root:validation overall accuracy 0.842000
+INFO:root:0-shot: 0.072, 1-shot: 0.996, 2-shot: 0.996, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9140, avg train loss 0.014349
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.060, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9160, avg train loss 0.012508
+INFO:root:validation overall accuracy 0.842667
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.996, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 9180, avg train loss 0.015246
+INFO:root:validation overall accuracy 0.844000
+INFO:root:0-shot: 0.096, 1-shot: 0.980, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 0.996, 5-shot: 1.000, 
+INFO:root:episode batch 9200, avg train loss 0.012736
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 1.000, 4-shot: 1.000, 5-shot: 0.988, 
+INFO:root:episode batch 9220, avg train loss 0.012934
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.084, 1-shot: 0.968, 2-shot: 0.972, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.992, 
+INFO:root:episode batch 9240, avg train loss 0.013543
+INFO:root:validation overall accuracy 0.840000
+INFO:root:0-shot: 0.076, 1-shot: 0.988, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9260, avg train loss 0.012076
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.076, 1-shot: 0.976, 2-shot: 0.976, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 9280, avg train loss 0.011695
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.068, 1-shot: 0.956, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 9300, avg train loss 0.014727
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.072, 1-shot: 0.992, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.988, 
+INFO:root:episode batch 9320, avg train loss 0.012757
+INFO:root:validation overall accuracy 0.822667
+INFO:root:0-shot: 0.052, 1-shot: 0.960, 2-shot: 0.976, 3-shot: 0.980, 4-shot: 0.972, 5-shot: 0.996, 
+INFO:root:episode batch 9340, avg train loss 0.012388
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.060, 1-shot: 0.972, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 9360, avg train loss 0.010259
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 1.000, 5-shot: 0.992, 
+INFO:root:episode batch 9380, avg train loss 0.012690
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.104, 1-shot: 0.980, 2-shot: 0.992, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 9400, avg train loss 0.011315
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.960, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 9420, avg train loss 0.011706
+INFO:root:validation overall accuracy 0.840667
+INFO:root:0-shot: 0.072, 1-shot: 0.992, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 1.000, 
+INFO:root:episode batch 9440, avg train loss 0.012334
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.072, 1-shot: 0.972, 2-shot: 0.996, 3-shot: 0.988, 4-shot: 0.976, 5-shot: 0.996, 
+INFO:root:episode batch 9460, avg train loss 0.012173
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.072, 1-shot: 0.992, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 9480, avg train loss 0.013146
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.068, 1-shot: 0.968, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 9500, avg train loss 0.014149
+INFO:root:validation overall accuracy 0.838000
+INFO:root:0-shot: 0.096, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.992, 4-shot: 0.984, 5-shot: 0.992, 
+INFO:root:episode batch 9520, avg train loss 0.013706
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.080, 1-shot: 0.984, 2-shot: 0.996, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9540, avg train loss 0.013717
+INFO:root:validation overall accuracy 0.834667
+INFO:root:0-shot: 0.056, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 9560, avg train loss 0.012143
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.084, 1-shot: 0.972, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 9580, avg train loss 0.012691
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.072, 1-shot: 0.968, 2-shot: 0.980, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 9600, avg train loss 0.011667
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.996, 3-shot: 0.992, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:episode batch 9620, avg train loss 0.010642
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.064, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.980, 
+INFO:root:episode batch 9640, avg train loss 0.014307
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.092, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 1.000, 
+INFO:root:episode batch 9660, avg train loss 0.011862
+INFO:root:validation overall accuracy 0.832000
+INFO:root:0-shot: 0.072, 1-shot: 0.980, 2-shot: 0.984, 3-shot: 0.980, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 9680, avg train loss 0.010255
+INFO:root:validation overall accuracy 0.836000
+INFO:root:0-shot: 0.060, 1-shot: 0.988, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 9700, avg train loss 0.013502
+INFO:root:validation overall accuracy 0.841333
+INFO:root:0-shot: 0.076, 1-shot: 0.992, 2-shot: 0.996, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 0.996, 
+INFO:root:episode batch 9720, avg train loss 0.012161
+INFO:root:validation overall accuracy 0.839333
+INFO:root:0-shot: 0.068, 1-shot: 0.996, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.992, 5-shot: 0.992, 
+INFO:root:episode batch 9740, avg train loss 0.012874
+INFO:root:validation overall accuracy 0.830667
+INFO:root:0-shot: 0.052, 1-shot: 0.988, 2-shot: 0.972, 3-shot: 1.000, 4-shot: 0.988, 5-shot: 0.984, 
+INFO:root:episode batch 9760, avg train loss 0.012976
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.068, 1-shot: 0.976, 2-shot: 0.980, 3-shot: 0.996, 4-shot: 0.976, 5-shot: 0.992, 
+INFO:root:episode batch 9780, avg train loss 0.012446
+INFO:root:validation overall accuracy 0.838667
+INFO:root:0-shot: 0.076, 1-shot: 0.980, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 9800, avg train loss 0.011216
+INFO:root:validation overall accuracy 0.836667
+INFO:root:0-shot: 0.080, 1-shot: 0.964, 2-shot: 0.984, 3-shot: 0.996, 4-shot: 1.000, 5-shot: 0.996, 
+INFO:root:episode batch 9820, avg train loss 0.011292
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.068, 1-shot: 0.992, 2-shot: 0.980, 3-shot: 1.000, 4-shot: 0.996, 5-shot: 0.988, 
+INFO:root:episode batch 9840, avg train loss 0.012545
+INFO:root:validation overall accuracy 0.837333
+INFO:root:0-shot: 0.060, 1-shot: 0.984, 2-shot: 0.988, 3-shot: 1.000, 4-shot: 0.992, 5-shot: 1.000, 
+INFO:root:episode batch 9860, avg train loss 0.011079
+INFO:root:validation overall accuracy 0.833333
+INFO:root:0-shot: 0.068, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.976, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9880, avg train loss 0.011964
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.060, 1-shot: 0.976, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.988, 5-shot: 0.988, 
+INFO:root:episode batch 9900, avg train loss 0.011070
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.076, 1-shot: 0.968, 2-shot: 0.980, 3-shot: 0.984, 4-shot: 0.988, 5-shot: 1.000, 
+INFO:root:episode batch 9920, avg train loss 0.012081
+INFO:root:validation overall accuracy 0.832667
+INFO:root:0-shot: 0.068, 1-shot: 0.960, 2-shot: 0.992, 3-shot: 0.992, 4-shot: 1.000, 5-shot: 0.984, 
+INFO:root:episode batch 9940, avg train loss 0.011732
+INFO:root:validation overall accuracy 0.835333
+INFO:root:0-shot: 0.068, 1-shot: 0.980, 2-shot: 0.988, 3-shot: 0.988, 4-shot: 0.992, 5-shot: 0.996, 
+INFO:root:episode batch 9960, avg train loss 0.011226
+INFO:root:validation overall accuracy 0.831333
+INFO:root:0-shot: 0.080, 1-shot: 0.972, 2-shot: 0.976, 3-shot: 0.988, 4-shot: 0.980, 5-shot: 0.992, 
+INFO:root:episode batch 9980, avg train loss 0.013766
+INFO:root:validation overall accuracy 0.834000
+INFO:root:0-shot: 0.072, 1-shot: 0.952, 2-shot: 0.992, 3-shot: 0.996, 4-shot: 0.996, 5-shot: 0.996, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.177801
+INFO:root:validation overall accuracy 0.690000
+INFO:root:0-shot: 0.100, 1-shot: 0.400, 2-shot: 0.480, 3-shot: 0.680, 4-shot: 0.600, 5-shot: 0.660, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.175127
+INFO:root:validation overall accuracy 0.721000
+INFO:root:0-shot: 0.100, 1-shot: 0.540, 2-shot: 0.600, 3-shot: 0.620, 4-shot: 0.700, 5-shot: 0.720, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.162724
+INFO:root:validation overall accuracy 0.693000
+INFO:root:0-shot: 0.100, 1-shot: 0.400, 2-shot: 0.560, 3-shot: 0.480, 4-shot: 0.600, 5-shot: 0.780, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.170473
+INFO:root:validation overall accuracy 0.701000
+INFO:root:0-shot: 0.100, 1-shot: 0.400, 2-shot: 0.600, 3-shot: 0.620, 4-shot: 0.700, 5-shot: 0.700, 
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.166772
+INFO:root:Number of labels in train data: 964.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 964
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 5
+INFO:root:rep_dim 128
+INFO:root:episode_length 100
+INFO:root:episode_width 5
+INFO:root:memory_size 1600
+INFO:root:batch_size 16
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/alaguna/Documents/Research/TCAM/rare-events/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+INFO:root:starting now
+INFO:root:episode batch 0, avg train loss 0.175862
+INFO:root:validation overall accuracy 0.690000
+INFO:root:0-shot: 0.100, 1-shot: 0.460, 2-shot: 0.600, 3-shot: 0.480, 4-shot: 0.660, 5-shot: 0.680, 
