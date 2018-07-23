@@ -1,0 +1,23 @@
+INFO:root:Number of labels in train data: 3856.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 3856
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 20
+INFO:root:rep_dim 128
+INFO:root:episode_length 50
+INFO:root:episode_width 20
+INFO:root:memory_size 2000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead

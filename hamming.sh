@@ -7,4 +7,4 @@
 module load tensorflow/1.8
 module load python/3.6.0
 
-python train.py --memory_size=2000  --batch_size=16 --episode_width=20 --episode_length=50 --num_episodes=5000 --rep_dim=128
+python train.py --memory_size=2000  --batch_size=16 --episode_width=20 --episode_length=50 --num_episodes=5 --rep_dim=128

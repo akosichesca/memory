@@ -21,7 +21,7 @@ which returns nearest neighbors.
 
 import tensorflow as tf
 
-import memory3 as memory
+import memory as memory
 
 FLAGS = tf.flags.FLAGS
 
