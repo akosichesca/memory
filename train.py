@@ -15,9 +15,7 @@
 # ==============================================================================
 r"""Script for training model.
 Simple command to get up and running:
-  python train.py --memory_size=8192 \
-      --batch_size=16 --validation_length=50 \
-      --episode_width=5 --episode_length=30
+  python train.py --memory_size=20000 --batch_size=16 --validation_length=50  --episode_width=5 --episode_length=50
 """
 
 # python train.py --memory_size=20000  --batch_size=16 --episode_width=20 --episode_length=50 --num_episodes=5000 --rep_dim=512
@@ -45,7 +43,7 @@ tf.flags.DEFINE_integer('episode_width', 5,
 tf.flags.DEFINE_integer('memory_size', None, 'number of slots in memory. '
                         'Leave as None to default to episode length')
 tf.flags.DEFINE_integer('batch_size', 16, 'batch size')
-tf.flags.DEFINE_integer('num_episodes', 10000, 'number of training episodes')
+tf.flags.DEFINE_integer('num_episodes', 5000, 'number of training episodes')
 tf.flags.DEFINE_integer('validation_frequency', 20,
                         'every so many training episodes, '
                         'assess validation accuracy')
@@ -167,8 +165,8 @@ class Trainer(object):
 
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
-    train_writer_1shot = tf.summary.FileWriter('log/one-shot-20way-hamming')
-    train_writer_5shot = tf.summary.FileWriter('log/five-shot-20way-hamming')
+    train_writer_1shot = tf.summary.FileWriter('log/one-shot-5way-cheby')
+    train_writer_5shot = tf.summary.FileWriter('log/five-shot-5way-cheby')
    
 
     saver = tf.train.Saver(max_to_keep=10)
