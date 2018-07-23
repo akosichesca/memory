@@ -167,8 +167,8 @@ class Trainer(object):
 
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
-    train_writer_1shot = tf.summary.FileWriter('log/one-shot-20way-hamming')
-    train_writer_5shot = tf.summary.FileWriter('log/five-shot-20way-hamming')
+    train_writer_1shot = tf.summary.FileWriter('log/one-shot-5way-hamming')
+    train_writer_5shot = tf.summary.FileWriter('log/five-shot-5way-hamming')
    
 
     saver = tf.train.Saver(max_to_keep=10)
