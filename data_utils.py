@@ -32,7 +32,7 @@ from six.moves import xrange
 import tensorflow as tf
 
 
-MAIN_DIR = '../omniglot/'
+MAIN_DIR = '../'
 REPO_LOCATION = 'https://github.com/brendenlake/omniglot.git'
 REPO_DIR = os.path.join(MAIN_DIR, 'omniglot')
 DATA_DIR = os.path.join(REPO_DIR, 'python')
