@@ -167,10 +167,10 @@ class Trainer(object):
     sess.run(tf.global_variables_initializer())
     
     now = datetime.datetime.now()
-    shot1 = 'log_precision/1shot_' + FLAGS.save_dir + now.strftime("%Y%m%d%H%M")
-    shot1 = 'log_precision/1shot_' + FLAGS.save_dir + now.strftime("%Y%m%d%H%M")
-    train_writer_1shot = tf.summary.FileWriter('log_precision/1shot',  sess.graph)
-    train_writer_5shot = tf.summary.FileWriter('log_precision/5shot')
+    shot1 = 'log_precision/shot1_' + FLAGS.save_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
+    shot5 = 'log_precision/shot5_' + FLAGS.save_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
+    train_writer_1shot = tf.summary.FileWriter(shot1,  sess.graph)
+    train_writer_5shot = tf.summary.FileWriter(shot5)
    
 
     saver = tf.train.Saver(max_to_keep=10)
