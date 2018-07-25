@@ -15,10 +15,10 @@
 # ==============================================================================
 r"""Script for training model.
 Simple command to get up and running:
-  python train.py --memory_size=20000 --batch_size=16 --validation_length=50  --episode_width=5 --episode_length=50
+python train.py --memory_size=20000 --batch_size=16 --validation_length=50  --episode_width=5 --episode_length=50 --num_episodes=100
 """
 
-# python train.py --memory_size=20000  --batch_size=16 --episode_width=20 --episode_length=50 --num_episodes=5000 --rep_dim=512
+# python train.py --memory_size=20000  --batch_size=16 --episode_width=20 --episode_length=150 --num_episodes=5000 --rep_dim=512
 
 
 import logging
@@ -30,7 +30,7 @@ import tensorflow as tf
 
 import data_utils
 import model
-
+import datetime
 from tqdm import tqdm
 
 FLAGS = tf.flags.FLAGS
@@ -52,7 +52,7 @@ tf.flags.DEFINE_integer('validation_length', 10,
                         'validation accuracy')
 tf.flags.DEFINE_integer('seed', 888, 'random seed for training sampling')
 tf.flags.DEFINE_string('save_dir', '', 'directory to save model to')
-
+tf.flags.DEFINE_integer('precision_bits', 32, 'number of precision bits for the memory')
     
 class Trainer(object):
   """Class that takes care of training, validating, and checkpointing model."""
@@ -78,7 +78,7 @@ class Trainer(object):
     vocab_size = self.episode_width * self.batch_size
     return model.Model(
         self.input_dim, self.output_dim, self.rep_dim, self.memory_size,
-        vocab_size)
+        vocab_size, FLAGS.precision_bits)
 
   def sample_episode_batch(self, data,
                            episode_length, episode_width, batch_size):
@@ -165,8 +165,12 @@ class Trainer(object):
 
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
-    train_writer_1shot = tf.summary.FileWriter('log/original-1shot',  sess.graph)
-    train_writer_5shot = tf.summary.FileWriter('log/original-5shot')
+    
+    now = datetime.datetime.now()
+    shot1 = 'log_precision/1shot_' + FLAGS.save_dir + now.strftime("%Y%m%d%H%M")
+    shot1 = 'log_precision/1shot_' + FLAGS.save_dir + now.strftime("%Y%m%d%H%M")
+    train_writer_1shot = tf.summary.FileWriter('log_precision/1shot',  sess.graph)
+    train_writer_5shot = tf.summary.FileWriter('log_precision/5shot')
    
 
     saver = tf.train.Saver(max_to_keep=10)

@@ -27,12 +27,12 @@ from six.moves import cPickle as pickle
 import numpy as np
 from scipy.misc import imresize
 from scipy.misc import imrotate
-from scipy.ndimage import imreadn
+from scipy.ndimage import imread
 from six.moves import xrange
 import tensorflow as tf
 
 
-MAIN_DIR = '../'
+MAIN_DIR = '../omniglot/'
 REPO_LOCATION = 'https://github.com/brendenlake/omniglot.git'
 REPO_DIR = os.path.join(MAIN_DIR, 'omniglot')
 DATA_DIR = os.path.join(REPO_DIR, 'python')

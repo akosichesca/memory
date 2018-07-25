@@ -23,7 +23,14 @@ published as a conference paper at ICLR 2017.
 
 import numpy as np
 import tensorflow as tf
+import reduce_precision as myutils
 
+
+def reduce_precision(tensor, precision_bits=8):
+  N = 2**precision_bits
+  print(N)
+  print(tensor)
+  return round(N * tensor)/N
 
 class Memory(object):
   """Memory module."""
@@ -155,8 +162,13 @@ class Memory(object):
         my_mem_keys = tf.stop_gradient(tf.gather(self.mem_keys, hint_pool_idxs,
                                                  name='my_mem_keys_gather'))
         qkeys = tf.tile(tf.reshape(normalized_query,[batch_size,1,self.key_dim]),[1,choose_k,1])
-        #hint_pool_sims = tf.reciprocal(tf.reduce_sum(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
-        hint_pool_sims = tf.reciprocal(tf.reduce_max(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
+        
+        #qkeys2 = myutils.reduce_precision(qkeys, precision=32)
+        #my_mem_keys2 = myutils.reduce_precision(my_mem_keys, precision=32)
+        
+        
+        hint_pool_sims = tf.reciprocal(tf.reduce_sum(tf.abs(tf.add(qkeys2, tf.negative(self.mem_keys))), reduction_indices=2))
+        #hint_pool_sims = tf.reciprocal(tf.reduce_max(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
         hint_pool_mem_vals = tf.gather(self.mem_vals, hint_pool_idxs,
                                        name='hint_pool_mem_vals')
         
@@ -247,3 +259,5 @@ class Memory(object):
       teacher_loss = tf.identity(teacher_loss)
 
     return result, mask, tf.reduce_mean(teacher_loss)
+  
+
