@@ -27,7 +27,7 @@ from six.moves import cPickle as pickle
 import numpy as np
 from scipy.misc import imresize
 from scipy.misc import imrotate
-from scipy.ndimage import imread
+from scipy.ndimage import imreadn
 from six.moves import xrange
 import tensorflow as tf
 
@@ -40,7 +40,7 @@ TRAIN_DIR = os.path.join(DATA_DIR, 'images_background')
 TEST_DIR = os.path.join(DATA_DIR, 'images_evaluation')
 DATA_FILE_FORMAT = os.path.join(MAIN_DIR, '%s_omni.pkl')
 
-TRAIN_ROTATIONS = False  # augment training data with rotations
+TRAIN_ROTATIONS = True  # augment training data with rotations
 TEST_ROTATIONS = False  # augment testing data with rotations
 IMAGE_ORIGINAL_SIZE = 105
 IMAGE_NEW_SIZE = 28

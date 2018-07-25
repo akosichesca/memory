@@ -1,0 +1,38 @@
+INFO:root:Number of labels in train data: 3856.
+INFO:root:Number of labels in test data: 659.
+INFO:root:train_size (number of labels) 3856
+INFO:root:valid_size (number of labels) 659
+INFO:root:input_dim 784
+INFO:root:output_dim 20
+INFO:root:rep_dim 128
+INFO:root:episode_length 50
+INFO:root:episode_width 20
+INFO:root:memory_size 2000
+INFO:root:batch_size 16
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/model.py:137: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+WARNING:tensorflow:From /afs/crc.nd.edu/user/a/alaguna/Documents/Research/TCAM/rare-events/memory/memory.py:141: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+2018-07-23 16:30:33.465212: E tensorflow/core/common_runtime/direct_session.cc:154] Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 17071734784
+Traceback (most recent call last):
+  File "train.py", line 257, in <module>
+    tf.app.run()
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.8/gpu/python2/dependencies/build/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 126, in run
+    _sys.exit(main(argv))
+  File "train.py", line 251, in main
+    trainer.run()
+  File "train.py", line 166, in run
+    sess = tf.Session()
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.8/gpu/python2/dependencies/build/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1560, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/afs/crc.nd.edu/x86_64_linux/t/tensorflow/1.8/gpu/python2/dependencies/build/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 633, in __init__
+    self._session = tf_session.TF_NewSession(self._graph._c_graph, opts)
+tensorflow.python.framework.errors_impl.InternalError: Failed to create session.

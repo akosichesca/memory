@@ -165,7 +165,7 @@ class Trainer(object):
 
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
-    train_writer_1shot = tf.summary.FileWriter('log/original-1shot',  sess.grap)
+    train_writer_1shot = tf.summary.FileWriter('log/original-1shot',  sess.graph)
     train_writer_5shot = tf.summary.FileWriter('log/original-5shot')
    
 
