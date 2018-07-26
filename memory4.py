@@ -25,13 +25,6 @@ import numpy as np
 import tensorflow as tf
 import reduce_precision as myutils
 
-
-def reduce_precision(tensor, precision_bits=8):
-  N = 2**precision_bits
-  print(N)
-  print(tensor)
-  return round(N * tensor)/N
-
 class Memory(object):
   """Memory module."""
 
