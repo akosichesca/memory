@@ -21,7 +21,7 @@ which returns nearest neighbors.
 
 import tensorflow as tf
 
-import memory4 as memory
+import memory5 as memory
 
 FLAGS = tf.flags.FLAGS
 
@@ -120,7 +120,7 @@ class LeNet(object):
 class Model(object):
   """Model for coordinating between CNN embedder and Memory module."""
 
-  def __init__(self, input_dim, output_dim, rep_dim, memory_size, vocab_size,
+  def __init__(self, input_dim, output_dim, rep_dim, memory_size, vocab_size, precision_bits,
                learning_rate=0.0001):
     self.input_dim = input_dim
     self.output_dim = output_dim
@@ -128,6 +128,7 @@ class Model(object):
     self.memory_size = memory_size
     self.vocab_size = vocab_size
     self.learning_rate = learning_rate
+    self.precision_bits = precision_bits
 
 
     self.embedder = self.get_embedder()
@@ -141,7 +142,7 @@ class Model(object):
 
   def get_memory(self):
     cls = memory.Memory
-    return cls(self.rep_dim, self.memory_size, self.vocab_size)
+    return cls(self.rep_dim, self.memory_size, self.vocab_size, self.precision_bits)
 
   def get_classifier(self):
     return BasicClassifier(self.output_dim)
@@ -206,7 +207,7 @@ class Model(object):
 
   def get_optimizer(self):
     return tf.train.AdamOptimizer(learning_rate=self.learning_rate,
-                                  epsilon=1e-4)
+                                  epsilon=1e-3)
 
   def one_step(self, sess, x, y):
     outputs = [self.loss, self.gradient_ops]
@@ -297,3 +298,5 @@ class Model(object):
 
   def clear_memory(self, sess):
     sess.run([self.memory.clear()])
+
+

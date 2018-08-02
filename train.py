@@ -52,6 +52,7 @@ tf.flags.DEFINE_integer('validation_length', 10,
                         'validation accuracy')
 tf.flags.DEFINE_integer('seed', 888, 'random seed for training sampling')
 tf.flags.DEFINE_string('save_dir', '', 'directory to save model to')
+tf.flags.DEFINE_string('log_dir', '', 'directory to save model to')
 tf.flags.DEFINE_integer('precision_bits', 32, 'number of precision bits for the memory')
     
 class Trainer(object):
@@ -167,8 +168,8 @@ class Trainer(object):
     sess.run(tf.global_variables_initializer())
     
     now = datetime.datetime.now()
-    shot1 = 'log_precision/shot1_' + FLAGS.save_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
-    shot5 = 'log_precision/shot5_' + FLAGS.save_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
+    shot1 = 'log_precision/shot1_' + FLAGS.log_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
+    shot5 = 'log_precision/shot5_' + FLAGS.log_dir + '_prec' + str(FLAGS.precision_bits) + '_' + now.strftime("%m%d%H%M")
     train_writer_1shot = tf.summary.FileWriter(shot1,  sess.graph)
     train_writer_5shot = tf.summary.FileWriter(shot5)
    
