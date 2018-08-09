@@ -92,7 +92,7 @@ class Memory(object):
     # look up in large memory, no gradients
     with tf.device(self.nn_device):
       qkeys = tf.tile(tf.reshape(normalized_query,[batch_size,1,self.key_dim]),[1,self.memory_size,1])
-      similarities = tf.reciprocal(tf.reduce_sum(tf.abs(tf.add(tf.stop_gradient(qkeys), tf.negative(self.mem_keys))), reduction_indices=2))
+      similarities = tf.reciprocal(tf.reduce_max(tf.abs(tf.add(tf.stop_gradient(qkeys), tf.negative(self.mem_keys))), reduction_indices=2))
       
       #tf.reciprocal(tf.matmul(tf.stop_gradient(normalized_query),
       #                         self.mem_keys, transpose_b=True, name='nn_mmul'))
@@ -161,7 +161,7 @@ class Memory(object):
         qkeys = tf.tile(tf.reshape(normalized_query,[batch_size,1,self.key_dim]),[1,choose_k,1])
 
         
-        hint_pool_sims = tf.reciprocal(tf.reduce_sum(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
+        hint_pool_sims = tf.reciprocal(tf.reduce_max(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
         #hint_pool_sims = tf.reciprocal(tf.reduce_max(tf.abs(tf.add(qkeys, tf.negative(my_mem_keys))), reduction_indices=2))
         hint_pool_mem_vals = tf.gather(self.mem_vals, hint_pool_idxs,
                                        name='hint_pool_mem_vals')

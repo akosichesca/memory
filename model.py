@@ -21,7 +21,7 @@ which returns nearest neighbors.
 
 import tensorflow as tf
 
-import memory5 as memory
+import memory5 as memory	#memory5 for hamming
 
 FLAGS = tf.flags.FLAGS
 
